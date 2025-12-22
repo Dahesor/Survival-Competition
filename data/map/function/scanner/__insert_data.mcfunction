@@ -1,0 +1,2 @@
+$execute store result score __scc map run data modify storage map:main main.data[$(z)][$(x)] set from storage map:main chunk
+$execute unless score __scc map matches 0 run data modify storage map:main main.data[$(z)][$(x)].update set value 1b

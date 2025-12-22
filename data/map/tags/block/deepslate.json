@@ -1,0 +1,26 @@
+{
+    "values": [
+        "deepslate",
+        "deepslate_coal_ore",
+        "deepslate_copper_ore",
+        "deepslate_diamond_ore",
+        "deepslate_emerald_ore",
+        "deepslate_gold_ore",
+        "deepslate_iron_ore",
+        "deepslate_lapis_ore",
+        "deepslate_redstone_ore",
+        "infested_deepslate",
+        "reinforced_deepslate",
+        "deepslate_brick_slab",
+        "deepslate_bricks",
+        "deepslate_tile_slab",
+        "deepslate_tiles",
+        "cobbled_deepslate",
+        "cobbled_deepslate_slab",
+        "cracked_deepslate_bricks",
+        "cracked_deepslate_tiles",
+        "chiseled_deepslate",
+        "polished_deepslate",
+        "polished_deepslate_slab"
+    ]
+}

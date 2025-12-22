@@ -1,0 +1,1 @@
+function map:sample/color/bin/5/5fffft

@@ -1,0 +1,27 @@
+{
+    "values": [
+        "stripped_warped_stem",
+        "warped_hanging_sign",
+        "warped_planks",
+        "warped_shelf",
+        "warped_stem",
+        "warped_slab",
+        "warped_wall_hanging_sign",
+        "weathered_copper",
+        "weathered_copper_bulb",
+        "weathered_copper_chest",
+        "weathered_copper_golem_statue",
+        "weathered_copper_grate",
+        "weathered_lightning_rod",
+        "waxed_weathered_chiseled_copper",
+        "waxed_weathered_copper",
+        "waxed_weathered_copper_bulb",
+        "waxed_weathered_copper_chest",
+        "waxed_weathered_copper_golem_statue",
+        "waxed_weathered_copper_grate",
+        "waxed_weathered_cut_copper",
+        "waxed_weathered_cut_copper_slab",
+        "waxed_weathered_lightning_rod",
+        "waxed_oxidized_lightning_rod"
+    ]
+}

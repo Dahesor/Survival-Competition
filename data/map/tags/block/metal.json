@@ -1,0 +1,21 @@
+{
+    "values": [
+        "anvil",
+        "brewing_stand",
+        "chipped_anvil",
+        "damaged_anvil",
+        "grindstone",
+        "heavy_core",
+        "heavy_weighted_pressure_plate",
+        "iron_block",
+        "iron_door",
+        "iron_trapdoor",
+        "lantern",
+        "lodestone",
+        "pale_oak_leaves",
+        "pale_oak_sapling",
+        "soul_lantern",
+        "iron_bars",
+        "iron_chain"
+    ]
+}

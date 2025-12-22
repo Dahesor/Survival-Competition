@@ -1,0 +1,35 @@
+use::java::util::text::Text
+use::dialog::dialog::DialogMix
+
+dispatch minecraft:storage["map:main"] to struct{
+    main?: MapData,
+    chunk?: ChunkData,
+    color?: #[color="hex_rgb"] string,
+    front_line?: [Text],
+    back_line?: [Text],
+    line?: [ChunkData],
+    text?: [Text],
+    text_ready?: [Text],
+    t?: Text,
+    temp?: [[ChunkData]],
+    dialog?: struct {
+        dialog?: DialogMix
+    },
+    num?: any
+}
+
+struct ChunkData{
+    color?: [#[color="hex_rgb"] string] @..4,
+    init?: boolean,
+    location?: vec2,
+    update?: boolean
+}
+
+struct MapData{
+    origin: struct vec2{
+        x: int,
+        z: int
+    },
+    data:[[ChunkData]],
+    size?: int
+}

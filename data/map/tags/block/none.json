@@ -1,0 +1,9 @@
+{
+    "values": [
+        "barrier",
+        "light",
+        "air",
+        "cave_air",
+        "void_air"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "values": [
+        "brick_slab",
+        "bricks",
+        "enchanting_table",
+        "fire_coral",
+        "fire_coral_block",
+        "fire_coral_fan",
+        "fire_coral_wall_fan",
+        "mangrove_log",
+        "red_candle_cake",
+        "red_concrete",
+        "red_concrete_powder",
+        "red_glazed_terracotta",
+        "red_nether_brick_slab",
+        "mangrove_planks",
+        "mangrove_slab",
+        "mangrove_trapdoor",
+        "mangrove_wood",
+        "nether_wart",
+        "nether_wart_block",
+        "red_candle",
+        "red_carpet",
+        "red_mushroom",
+        "red_mushroom_block",
+        "red_shulker_box",
+        "red_wool",
+        "shroomlight",
+        "sniffer_egg",
+        "stripped_mangrove_log",
+        "stripped_mangrove_wood"
+    ]
+}

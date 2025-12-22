@@ -1,0 +1,33 @@
+{
+    "values": [
+        "birch_hanging_sign",
+        "birch_log",
+        "birch_planks",
+        "birch_sign",
+        "birch_slab",
+        "birch_trapdoor",
+        "birch_wall_hanging_sign",
+        "birch_wall_sign",
+        "birch_wood",
+        "bone_block",
+        "candle",
+        "chiseled_sandstone",
+        "cut_sandstone",
+        "cut_sandstone_slab",
+        "end_stone",
+        "end_stone_bricks",
+        "end_stone_brick_slab",
+        "smooth_sandstone_slab",
+        "glowstone",
+        "ochre_froglight",
+        "sand",
+        "sandstone",
+        "sandstone_slab",
+        "scaffolding",
+        "smooth_sandstone",
+        "stripped_birch_log",
+        "stripped_birch_wood",
+        "suspicious_sand",
+        "turtle_egg"
+    ]
+}

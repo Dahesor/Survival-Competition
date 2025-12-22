@@ -1,0 +1,32 @@
+{
+    "type": "multi_action",
+    "title": "进度生存赛",
+    "pause": false, "columns":1,
+    "after_action": "none",
+    "actions": [
+        {
+            "label": "进度列表",
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "/trigger dialog set 1"
+            }
+        },
+        {
+            "label": "旁观地图",
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "/trigger dialog set 2"
+            }
+        },
+        {
+            "label": "管理员页面",
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "/trigger dialog set -1"
+            }
+        }
+    ]
+}

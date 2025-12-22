@@ -1,0 +1,24 @@
+{
+    "values": [
+        "amethyst_block",
+        "amethyst_cluster",
+        "bubble_coral",
+        "bubble_coral_block",
+        "bubble_coral_fan",
+        "bubble_coral_wall_fan",
+        "budding_amethyst",
+        "chorus_flower",
+        "chorus_plant",
+        "mycelium",
+        "nether_portal",
+        "purple_candle",
+        "purple_carpet",
+        "purple_wool",
+        "repeating_command_block",
+        "shulker_box",
+        "purple_candle_cake",
+        "purple_concrete",
+        "purple_concrete_powder",
+        "purple_glazed_terracotta"
+    ]
+}
