@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:iron_tool_materials",
+    "+": "gold_nugget"
+  },
+  "pattern": [
+    "XX ",
+    "X# ",
+    "+#+"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_axe",
+    "components": {
+      "item_model": "dsc:iron_axe_p",
+      "attribute_modifiers": [
+        {
+          "amount": 8,
+          "slot": "mainhand",
+          "id": "base_attack_damage",
+          "operation": "add_value",
+          "type": "attack_damage"
+        },
+        {
+          "amount": -3,
+          "slot": "mainhand",
+          "id": "base_attack_speed",
+          "operation": "add_value",
+          "type": "attack_speed"
+        },
+        {
+          "amount": 1,
+          "slot": "mainhand",
+          "id": "dsc:main_mining",
+          "operation": "add_value",
+          "type": "mining_efficiency"
+        }
+      ],
+      "custom_name": {"text":"精良铁斧","italic": false}
+    }
+  }
+}

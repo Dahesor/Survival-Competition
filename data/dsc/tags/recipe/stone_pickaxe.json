@@ -1,0 +1,21 @@
+{
+    "values": [
+        "iron_axe",
+        "iron_hoe",
+        "iron_pickaxe",
+        "iron_sword",
+        "iron_shovel",
+        "copper_axe",
+        "copper_sword",
+        "copper_shovel",
+        "copper_hoe",
+        "copper_pickaxe",
+        "copper_helmet",
+        "copper_chestplate",
+        "copper_leggings",
+        "copper_boots",
+        "bucket",
+        "shield",
+        "shield_decoration"
+    ]
+}

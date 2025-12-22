@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:iron_tool_materials",
+    "+": "gold_nugget"
+  },
+  "pattern": [
+    " X ",
+    " # ",
+    "+#+"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_shovel",
+    "components": {
+      "item_model": "dsc:iron_shovel_p",
+      "attribute_modifiers": [
+        {
+          "amount": 4,
+          "slot": "mainhand",
+          "id": "base_attack_damage",
+          "operation": "add_value",
+          "type": "attack_damage"
+        },
+        {
+          "amount": -3,
+          "slot": "mainhand",
+          "id": "base_attack_speed",
+          "operation": "add_value",
+          "type": "attack_speed"
+        },
+        {
+          "amount": 1,
+          "slot": "mainhand",
+          "id": "dsc:main_mining",
+          "operation": "add_value",
+          "type": "mining_efficiency"
+        }
+      ],
+      "custom_name": {"text":"精良铁锹","italic": false}
+    }
+  }
+}

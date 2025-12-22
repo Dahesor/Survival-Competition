@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "X": "#minecraft:iron_tool_materials",
+    "+": "gold_nugget"
+  },
+  "pattern": [
+    "XXX",
+    " # ",
+    "+#+"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:iron_pickaxe",
+    "components": {
+      "item_model": "dsc:iron_pick_p",
+      "attribute_modifiers": [
+        {
+          "amount": 3.5,
+          "slot": "mainhand",
+          "id": "base_attack_damage",
+          "operation": "add_value",
+          "type": "attack_damage"
+        },
+        {
+          "amount": -2.8,
+          "slot": "mainhand",
+          "id": "base_attack_speed",
+          "operation": "add_value",
+          "type": "attack_speed"
+        },
+        {
+          "amount": 2,
+          "slot": "mainhand",
+          "id": "dsc:main_mining",
+          "operation": "add_value",
+          "type": "mining_efficiency"
+        }
+      ],
+      "custom_name": {"text":"精良铁镐","italic": false}
+    }
+  }
+}

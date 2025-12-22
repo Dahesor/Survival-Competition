@@ -1,6 +1,29 @@
 {
     "values": [
         "crafting_table",
-        "yellow_stained_glass"
+        "stick",
+        "stick_from_bamboo_item",
+        "pale_oak_planks",
+        "oak_planks",
+        "birch_planks",
+        "acacia_planks",
+        "bamboo_planks",
+        "cherry_planks",
+        "jungle_planks",
+        "spruce_planks",
+        "warped_planks",
+        "crimson_planks",
+        "dark_oak_planks",
+        "mangrove_planks",
+        "emerald_block",
+        "emerald",
+        "dsc:special/emerald_convert/1",
+        "dsc:special/emerald_convert/2",
+        "dsc:special/emerald_convert/3",
+        "dsc:special/emerald_convert/4",
+        "dsc:special/emerald_convert/5",
+        "dsc:special/emerald_convert/6",
+        "dsc:special/emerald_convert/7",
+        "dsc:special/emerald_convert/8"
     ]
 }

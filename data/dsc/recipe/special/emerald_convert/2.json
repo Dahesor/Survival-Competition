@@ -1,0 +1,10 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": ["emerald","emerald"],
+    "result": {
+        "id": "emerald",
+        "count": 2
+    },
+    "category": "misc",
+    "group": "dsc:emerald_convert"
+}

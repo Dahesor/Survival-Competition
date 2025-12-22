@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": "iron_ingot",
+    "+": "iron_nugget"
+  },
+  "pattern": [
+    "X +",
+    "X X"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:chainmail_boots",
+    "components": {
+      "rarity": "common"
+    }
+  }
+}
