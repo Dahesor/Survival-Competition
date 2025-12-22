@@ -3,7 +3,6 @@ recipe give @s iron_hoe
 recipe give @s iron_pickaxe
 recipe give @s iron_sword
 recipe give @s iron_shovel
-recipe give @s iron_chestplate
 recipe give @s copper_axe
 recipe give @s copper_sword
 recipe give @s copper_shovel

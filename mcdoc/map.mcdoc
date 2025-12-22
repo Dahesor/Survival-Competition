@@ -1,5 +1,5 @@
 use::java::util::text::Text
-use::dialog::dialog::DialogMix
+use::mcdoc::dialog::dialog::DialogMix
 
 dispatch minecraft:storage["map:main"] to struct{
     main?: MapData,

@@ -1,0 +1,55 @@
+use::java::util::text::Text
+
+dispatch minecraft:storage["dsc:task"] to struct{
+    entry?: [TaskEntry],
+    new?: [TaskEntry],
+}
+
+struct TaskEntryMod{
+    id?: string,
+    advancement?: #[id(registry="advancement")] string,
+    leader_advancement?: #[id(registry="advancement")] string,
+    first_reward?: TaskReward,
+    all_reward?: TaskReward,
+    additional_lore?: struct{
+        first_?: Text,
+        all_?: Text,
+        recipe_sum_first?: Text,
+        recipe_sum_all?: Text,
+    }
+}
+
+struct TaskEntry{
+    ...TaskEntryMod,
+    funcs?: struct{
+        give?: #[id(registry="function")] string,
+        take?: #[id(registry="function")] string,
+        give_first?: #[id(registry="function")] string,
+        take_first?: #[id(registry="function")] string,
+    },
+    display?: TaskDisplay,
+}
+
+struct TaskDisplay{
+    ...NewTaskDisplay,
+    title?: Text,
+    lore?: [Text],
+}
+
+struct NewTaskDisplay{
+    lore_length?: int @ 0..,
+    recipe_name_all?: [Text],
+    recipe_name_first?: [Text]
+}
+
+
+struct TaskReward{
+    recipe?: RecipeSet,
+    emerald?: int,
+    score?: int,
+    function?: #[id(registry="function")] string,
+    additional_lore?: [Text],
+}
+
+
+type RecipeSet = #[id(registry="recipe",tags="implicit")] string

@@ -3,8 +3,11 @@ from pathlib import Path
 
 # ============
 
-Source = "./data/dsc/tags/recipe/"
-Target = './data/dsc/function/module/recipe/'
+Source = "./data/dsc_recipe/tags/recipe/"
+Target = './data/dsc_recipe/function/'
+SOURCE_DIR = (Path.cwd() / Source).resolve()   # 源文件夹
+TARGET_DIR = (Path.cwd() / Target).resolve()   # 目标文件夹
+RECURSIVE = True                          # 是否递归扫描子目录
 
 # =================================
 
@@ -72,10 +75,3 @@ def main():
             print(f"⚠️ 处理失败: {jp}\n   原因: {e}")
 
     print(f"完成。成功: {ok}，失败: {failed}，输出目录: {TARGET_DIR}")
-
-
-if __name__ == "__main__":
-    SOURCE_DIR = (Path.cwd() / Source).resolve()   # 源文件夹
-    TARGET_DIR = (Path.cwd() / Target).resolve()   # 目标文件夹
-    RECURSIVE = True                          # 是否递归扫描子目录
-    main()
