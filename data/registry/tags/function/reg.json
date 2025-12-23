@@ -1,0 +1,6 @@
+{
+    "values": [
+        "registry:recipe/mine_stone",
+        "registry:recipe/stone_pickaxe"
+    ]
+}

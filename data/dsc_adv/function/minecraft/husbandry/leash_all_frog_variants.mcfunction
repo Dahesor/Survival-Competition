@@ -1,1 +1,0 @@
-function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:husbandry/leash_all_frog_variants",score:"10"}

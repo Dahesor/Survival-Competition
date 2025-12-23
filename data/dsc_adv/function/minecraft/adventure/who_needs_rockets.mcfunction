@@ -1,1 +1,0 @@
-function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:adventure/who_needs_rockets",score:"10"}

@@ -1,1 +1,0 @@
-function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:nether/return_to_sender",score:"10"}

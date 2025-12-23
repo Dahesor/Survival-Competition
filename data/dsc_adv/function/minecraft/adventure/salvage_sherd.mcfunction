@@ -1,1 +1,0 @@
-function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:adventure/salvage_sherd",score:"10"}

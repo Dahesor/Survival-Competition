@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "im":{
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/husbandry",
+    "description": {
+      "translate": "advancements.husbandry.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:hay_block"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.husbandry.root.title",
+      "extra": ["：您的队伍"]
+    }
+  }
+}

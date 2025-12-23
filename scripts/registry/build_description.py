@@ -8,11 +8,11 @@ def description(registry:Path, lore_text:str):
 
     if all_emerald > 0 or all_score > 0 or addtion_all != "" or recipe_sum_all != "":
         lore_text += nl
-        lore_text += f'{{"translate":"task.reward","italic":false,"color":"green"}}'
+        lore_text += f'{{"translate":"task.reward","italic":false,"color":"light_purple"}}'
         lore_text += build_reward(all_emerald, all_score, addtion_all, recipe_sum_all)
     if first_emerald > 0 or first_score > 0 or addtion_first != "" or recipe_sum_first != "":
         lore_text += nl
-        lore_text += f'{{"translate":"task.reward_first","italic":false,"color":"green"}}'
+        lore_text += f'{{"translate":"task.reward_first","italic":false,"color":"light_purple"}}'
         lore_text += build_reward(first_emerald, first_score, addtion_first, recipe_sum_first)
 
     lore_text = '[' + lore_text + ']'

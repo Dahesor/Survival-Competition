@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "im":{
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/nether",
+    "description": {
+      "translate": "advancements.nether.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherrack"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.nether.root.title",
+      "extra": ["：您的队伍"]
+    }
+  }
+}

@@ -1,1 +1,0 @@
-function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:story/cure_zombie_villager",score:"10"}

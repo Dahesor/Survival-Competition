@@ -3,6 +3,11 @@ use::java::util::text::Text
 dispatch minecraft:storage["dsc:task"] to struct{
     entry?: [TaskEntry],
     new?: [TaskEntry],
+    this?: TaskEntry,
+    reward?: struct{
+        function?: #[id(registry="function")] string,
+        recipe?: #[id(registry="function")] string,
+    },
 }
 
 struct TaskEntryMod{
@@ -28,6 +33,7 @@ struct TaskEntry{
         take_first?: #[id(registry="function")] string,
     },
     display?: TaskDisplay,
+    completed?: boolean
 }
 
 struct TaskDisplay{
@@ -48,7 +54,6 @@ struct TaskReward{
     emerald?: int,
     score?: int,
     function?: #[id(registry="function")] string,
-    additional_lore?: [Text],
 }
 
 

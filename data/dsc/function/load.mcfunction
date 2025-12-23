@@ -4,6 +4,8 @@ scoreboard objectives add op.auth dummy
 scoreboard objectives add dialog trigger
 scoreboard objectives add input trigger
 scoreboard objectives add screen dummy
+scoreboard objectives add team dummy
+scoreboard objectives add score dummy
 stopwatch create dsc:master
 execute unless score #init calc.DSC matches 1 run function dsc:initialize
 

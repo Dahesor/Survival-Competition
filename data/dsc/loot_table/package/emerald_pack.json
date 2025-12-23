@@ -1,0 +1,28 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "dsc:item/emerald"
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "set_count",
+            "add": false,
+            "count": {
+                "type": "score",
+                "score": "calc.DSC",
+                "target": {
+                    "type": "fixed",
+                    "name": "$package_amount"
+                }
+            }
+        }
+    ]
+}

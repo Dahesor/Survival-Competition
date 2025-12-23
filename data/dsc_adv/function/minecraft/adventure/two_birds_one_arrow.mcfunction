@@ -1,1 +1,0 @@
-function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:adventure/two_birds_one_arrow",score:"10"}

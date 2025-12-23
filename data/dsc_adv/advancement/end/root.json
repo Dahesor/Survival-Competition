@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "im":{
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/end",
+    "description": {
+      "translate": "advancements.end.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:end_stone"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.end.root.title",
+      "extra": ["：您的队伍"]
+    }
+  }
+}

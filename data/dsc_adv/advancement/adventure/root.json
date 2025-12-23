@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "im":{
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/adventure",
+    "description": {
+      "translate": "advancements.adventure.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:map"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.adventure.root.title",
+      "extra": ["：您的队伍"]
+    }
+  }
+}

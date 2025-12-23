@@ -1,1 +1,0 @@
-function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:husbandry/place_dried_ghast_in_water",score:"10"}

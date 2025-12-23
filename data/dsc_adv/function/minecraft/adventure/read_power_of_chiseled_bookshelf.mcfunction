@@ -1,1 +1,0 @@
-function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:adventure/read_power_of_chiseled_bookshelf",score:"10"}

@@ -23,3 +23,15 @@ recipe give @s dsc:special/emerald_convert/5
 recipe give @s dsc:special/emerald_convert/6
 recipe give @s dsc:special/emerald_convert/7
 recipe give @s dsc:special/emerald_convert/8
+recipe give @s wooden_axe
+recipe give @s wooden_hoe
+recipe give @s wooden_pickaxe
+recipe give @s wooden_sword
+recipe give @s wooden_shovel
+recipe give @s leather_boots
+recipe give @s leather_chestplate
+recipe give @s leather_helmet
+recipe give @s leather_leggings
+recipe give @s furnace
+recipe give @s barrel
+recipe give @s ladder

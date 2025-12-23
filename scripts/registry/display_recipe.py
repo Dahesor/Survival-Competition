@@ -3,6 +3,7 @@ import re
 import json
 
 def write_recipe_display(registry: Path, all_reward: str, first_reward: str):
+    return
     lines = registry.read_text(encoding="utf-8").splitlines(keepends=True)
 
     for i, line in enumerate(lines):

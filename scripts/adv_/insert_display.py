@@ -2,7 +2,13 @@ import json
 from pathlib import Path
 from typing import Any
 
-def insert_display(src_path: Path, lore_text: str, title_text: str) -> None:
+def insert_display(
+    src_path: Path,
+    lore_text: str,
+    title_text: str,
+    reg_id: str,
+    RECEIVER_FUNCTION_DIR: Path
+) -> None:
     if not src_path.exists() or not src_path.is_file():
         raise FileNotFoundError(f"JSON file not found: {src_path}")
 
@@ -30,9 +36,26 @@ def insert_display(src_path: Path, lore_text: str, title_text: str) -> None:
     # 修改 display
     display["title"] = title_json
     display["description"] = lore_json
+    display["show_toast"] = True
+    display["announce_to_chat"] = False
+
+    # NEW: 设置 rewards
+    data["rewards"] = {
+        "function": f"dsc_adv:{reg_id}"
+    }
 
     # 写回文件
     src_path.write_text(
         json.dumps(data, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8"
     )
+
+    # 确保 receiver mcfunction 存在
+    RECEIVER_FUNCTION_DIR.mkdir(parents=True, exist_ok=True)
+    mc_path = RECEIVER_FUNCTION_DIR / f"{reg_id}.mcfunction"
+
+    mc_path.write_text(
+    f'function dsc:module/adv/rewards/recieve {{id:"{reg_id}"}}\n',
+    encoding="utf-8"
+)
+

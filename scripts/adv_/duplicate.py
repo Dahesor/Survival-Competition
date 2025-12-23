@@ -35,9 +35,11 @@ def duplicate_adv(src_path: Path) -> Path:
         original = display["title"]
         display["title"] = {
             "translate": "task.first",
-            "color": "aqua",
+            "color": "white",
             "with": [original]
         }
+        display["show_toast"] = False
+        display["announce_to_chat"] = False
 
     # Write new file
     dest_path.write_text(

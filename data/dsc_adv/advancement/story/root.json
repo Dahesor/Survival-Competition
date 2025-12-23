@@ -1,0 +1,22 @@
+{
+  "criteria": {
+      "tick": {
+        "trigger": "impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/stone",
+    "description": {
+      "translate": "advancements.story.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:grass_block"
+    },
+    "show_toast": false,
+    "title": [{
+      "translate": "advancements.story.root.title"
+    },"：您的队伍"]
+  }
+}

@@ -11,6 +11,7 @@ from adv_.expand_path import *
 Source = "./data/registry/function/recipe/"
 LanguageFileRecipe = "../../../../resourcepacks/Survival Competition Resources/lang/assets/recipe/lang/zh_cn.json"
 LanguageFileTask = "../../../../resourcepacks/Survival Competition Resources/lang/assets/task/lang/zh_cn.json"
+RECEIVER_FUNCTION_DIR = (Path.cwd() / "./data/dsc_adv/function/").resolve()
 DEFAULT_TEXT_FORMAT = {"text": "","color":"gray","italic":False}
 
 def parse_registry(registry, LANGUAGE_DIR, LANGUAGE_DIR_TASK):
@@ -18,7 +19,7 @@ def parse_registry(registry, LANGUAGE_DIR, LANGUAGE_DIR_TASK):
     lore_text = description(registry, lore_text)
     full_adv_path = expand_advancement(registry,)
     assert full_adv_path is not None, f"Advancement path not found"
-    insert_display(full_adv_path, lore_text, title_text)
+    insert_display(full_adv_path, lore_text, title_text, reg_id, RECEIVER_FUNCTION_DIR)
     duplicate_adv(full_adv_path)
 
     trans_list = None

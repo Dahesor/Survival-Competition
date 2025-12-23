@@ -1,0 +1,2 @@
+advancement grant @a only dsc_adv:adventure/root
+say ?

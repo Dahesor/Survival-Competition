@@ -1,1 +1,0 @@
-function dsc:module/adv_mod/rewards/recieve {namespace:"minecraft:adventure/trim_with_all_exclusive_armor_patterns",score:"10"}

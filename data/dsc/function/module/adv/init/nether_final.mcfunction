@@ -1,0 +1,1 @@
+advancement grant @a only dsc_adv:nether/root/final

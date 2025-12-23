@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "im":{
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "dsc:gui/farmland_moist",
+    "description": {
+      "translate": "advancements.husbandry.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:honeycomb_block",
+      "components": {"enchantment_glint_override": true}
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.husbandry.root.title",
+      "extra": ["：所有玩家"]
+    }
+  }
+}

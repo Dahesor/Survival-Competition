@@ -1,0 +1,1 @@
+$advancement grant @a only $(advancement)/final

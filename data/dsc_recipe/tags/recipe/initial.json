@@ -24,6 +24,18 @@
         "dsc:special/emerald_convert/5",
         "dsc:special/emerald_convert/6",
         "dsc:special/emerald_convert/7",
-        "dsc:special/emerald_convert/8"
+        "dsc:special/emerald_convert/8",
+        "wooden_axe",
+        "wooden_hoe",
+        "wooden_pickaxe",
+        "wooden_sword",
+        "wooden_shovel",
+        "leather_boots",
+        "leather_chestplate",
+        "leather_helmet",
+        "leather_leggings",
+        "furnace",
+        "barrel",
+        "ladder"
     ]
 }
