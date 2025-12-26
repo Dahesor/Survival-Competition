@@ -1,5 +1,7 @@
 schedule clear gen:main
-tellraw @a [{text:"[gen:main] 进程终止: ERR",color:"red"}]
+execute store result score total_time gen run stopwatch query gen:main
+stopwatch remove gen:main
+tellraw @a [{text:"[gen:main] 进程终止: ERR: Invalid Goto ",color:"red"},{score:{name:"total_time",objective:"gen"},color:"yellow"},{text:"s",color:"red"}]
 gamerule command_block_output false
 gamerule block_drops true
 gamerule entity_drops true

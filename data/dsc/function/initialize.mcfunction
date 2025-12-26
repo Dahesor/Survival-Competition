@@ -10,15 +10,25 @@ scoreboard players set $enable_adv calc.DSC 0
 scoreboard players set $package_amount calc.DSC 0
 scoreboard players set $new_score calc.DSC 0
 
-summon marker 512 0 512 {UUID:[I;0,0,0,0]}
+summon marker 512 0 512 {UUID:[I;0,0,0,0],CustomName:"ROOT"}
 
 #temp
 scoreboard players set origin_x map 0
 scoreboard players set origin_z map 0
 scoreboard players set size map 64
 
+scoreboard players operation nether_x map = origin_x map
+scoreboard players operation nether_z map = origin_z map
+scoreboard players add nether_x map 512
+scoreboard players add nether_z map 512
+scoreboard players operation nether_x map /= #8 calc.DSC
+scoreboard players operation nether_z map /= #8 calc.DSC
+scoreboard players remove nether_x map 512
+scoreboard players remove nether_z map 512
+
 function map:reset_main
 function map:render/init
+function map:init/nether
 
 schedule function map:reset_main 3s
 

@@ -48,4 +48,9 @@ execute if score phase gen matches 100 run return run function gen:ac/port
 execute if score phase gen matches 200 run return run function gen:stronghold/place
 execute if score phase gen matches 201 run return run function gen:stronghold/recive
 execute if score phase gen matches 202 run return run function gen:stronghold/force
-function gen:abort
+
+execute if score phase gen matches 300 run return run function gen:nether/__fortress
+execute if score phase gen matches 301 run return run function gen:nether/fortress
+execute if score phase gen matches 302 run return run function gen:nether/__bastion
+execute if score phase gen matches 303 run return run function gen:nether/bastion
+return run function gen:abort

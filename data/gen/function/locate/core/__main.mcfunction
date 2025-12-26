@@ -8,4 +8,3 @@ $tellraw @a [{text:"\n[gen:locator] 正在定位~($(x),$(z))^$(step)最近的$(t
 $setblock ~ ~ ~ command_block{Command:"execute in $(in) facing ~$(x) ~ ~$(z) rotated ~ 0 positioned ~$(x) ~ ~$(z) positioned ^ ^ ^$(step) store result score distance gen store success score success gen run locate $(type) $(id)",TrackOutput:true,auto:true} replace
 
 return 1
-schedule function gen:locate/core/read 2t

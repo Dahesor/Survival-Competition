@@ -1,7 +1,11 @@
 scoreboard objectives remove gen
 scoreboard objectives add gen dummy
 
+stopwatch create gen:main
+
 data modify storage map:main dec set value []
+data modify storage map:main dec_nether set value [{x:0,z:0,char:"~"}]
+data modify storage map:main dec_end set value [{x:0,z:0,char:"~"}]
 
 gamerule command_block_output true
 gamerule block_drops false
@@ -24,6 +28,20 @@ scoreboard players add zero_z gen 512
 scoreboard players add max_x gen 1024
 scoreboard players add max_z gen 1024
 
+#Nether:
+scoreboard players operation nether_zero_x gen = zero_x gen
+scoreboard players operation nether_zero_z gen = zero_z gen
+scoreboard players operation nether_zero_x gen /= #8 calc.DSC
+scoreboard players operation nether_zero_z gen /= #8 calc.DSC
+
+scoreboard players operation nether_min_x gen = nether_x map
+scoreboard players operation nether_min_z gen = nether_z map
+scoreboard players operation nether_max_x gen = nether_x map
+scoreboard players operation nether_max_z gen = nether_z map
+scoreboard players add nether_max_x gen 1024
+scoreboard players add nether_max_z gen 1024
+
+#var
 scoreboard players set phase gen 1
 scoreboard players set next gen 0
 scoreboard players set vil_x gen -512

@@ -4,12 +4,12 @@ scoreboard objectives add op.auth dummy
 scoreboard objectives add dialog trigger
 scoreboard objectives add input trigger
 scoreboard objectives add screen dummy
+scoreboard objectives add md.dimension dummy
 scoreboard objectives add team dummy
 scoreboard objectives add score dummy
 scoreboard objectives add gen dummy
 scoreboard objectives add trigger.balanced_diet dummy
 stopwatch create dsc:master
-execute unless score #init calc.DSC matches 1 run function dsc:initialize
 
 
 gamerule max_command_sequence_length 655360
@@ -20,6 +20,7 @@ scoreboard players set #-1 calc.DSC -1
 scoreboard players set #2 calc.DSC 2
 scoreboard players set #4 calc.DSC 4
 scoreboard players set #6 calc.DSC 6
+scoreboard players set #8 calc.DSC 8
 scoreboard players set #10 calc.DSC 10
 scoreboard players set #16 calc.DSC 16
 scoreboard players set #18 calc.DSC 18
@@ -34,3 +35,5 @@ scoreboard players set #360 calc.DSC 360
 scoreboard players set #384 calc.DSC 384
 scoreboard players set #2667 calc.DSC 2667
 scoreboard players set #1000 calc.DSC 1000
+
+execute unless score #init calc.DSC matches 1 run function dsc:initialize

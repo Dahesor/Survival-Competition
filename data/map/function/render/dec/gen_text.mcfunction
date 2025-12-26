@@ -2,8 +2,8 @@ data modify storage map:main t set value {text:"",bold:0b,extra:["",{text:"-",co
 data modify storage map:main t.text set string storage map:main num.shift
 data modify storage map:main t.extra[2].text set from storage map:main t.text
 
-data modify storage map:main t.extra[1].hover_event.value.extra[0].translate set from storage map:main dec[0].char
-data modify storage map:main t.extra[1].extra[0] set from storage map:main dec[0].char
+data modify storage map:main t.extra[1].hover_event.value.extra[0].translate set from storage map:main dec_temp[0].char
+data modify storage map:main t.extra[1].extra[0] set from storage map:main dec_temp[0].char
 
 
 scoreboard players operation __font map = z map

@@ -1,7 +1,9 @@
-execute as 0-0-0-0-0 run function map:render/player/get_coord
+execute summon marker run function map:render/player/get_coord
 
-scoreboard players operation x map -= origin_x map
-scoreboard players operation z map -= origin_z map
+execute unless dimension minecraft:the_nether run scoreboard players operation x map -= origin_x map
+execute unless dimension minecraft:the_nether run scoreboard players operation z map -= origin_z map
+execute if dimension minecraft:the_nether run scoreboard players operation x map -= nether_x map
+execute if dimension minecraft:the_nether run scoreboard players operation z map -= nether_z map
 
 #Out of Bounds
 execute unless score x map matches -200..1224 unless score z map matches -200..1224 run return fail
@@ -30,4 +32,6 @@ scoreboard players add z map 1
 execute if score z map matches 22.. run scoreboard players set z map 21
 execute store result storage map:main num.z int 1 run scoreboard players operation z map *= #6 calc.DSC
 
-function map:render/player/__insert_text with storage map:main num
+execute if dimension overworld run return run function map:render/player/__insert_text with storage map:main num
+execute if dimension the_nether run return run function map:render/player/__insert_text_nether with storage map:main num
+execute if dimension the_end run return run function map:render/player/__insert_text_end with storage map:main num

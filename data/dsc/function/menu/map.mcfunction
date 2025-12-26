@@ -1,1 +1,1 @@
-$dialog show @a[tag=dsc.mapping] $(dialog)
+$dialog show @a[tag=dsc.mapping,scores={md.dimension=1}] $(dialog)

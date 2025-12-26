@@ -18,6 +18,9 @@ tellraw @a [{text:"[gen:locator] 在 (",color:"dark_gray"},{score:{name:"x",obje
 
 execute if score distance gen matches 1500.. run return run function gen:locate/core/outside
 
+execute if data storage minecraft:gen private{in:"the_nether"} run return run function gen:locate/core/nether
+execute if data storage minecraft:gen private{in:"minecraft:the_nether"} run return run function gen:locate/core/nether
+
 execute if score x gen <= min_x gen run return run function gen:locate/core/outside
 execute if score x gen >= max_x gen run return run function gen:locate/core/outside
 execute if score z gen <= min_z gen run return run function gen:locate/core/outside

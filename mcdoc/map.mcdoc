@@ -8,6 +8,9 @@ dispatch minecraft:storage["map:main"] to struct{
     front_line?: [Text],
     back_line?: [Text],
     line?: [ChunkData],
+    static?: StaticMap,
+    nether?: StaticMap,
+    the_end?: StaticMap,
     text?: [Text],
     text_ready?: [Text],
     t?: Text,
@@ -17,8 +20,15 @@ dispatch minecraft:storage["map:main"] to struct{
     },
     num?: any,
     dec?: [struct dec{...vec2,char?: string}],
+    dec_nether?: [dec],
+    dec_end?: [dec],
     dec_temp?: [dec],
     single_dec?: dec
+}
+
+struct StaticMap{
+    raw?: [Text],
+    final?: [Text]
 }
 
 struct ChunkData{
