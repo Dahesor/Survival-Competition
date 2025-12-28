@@ -1,0 +1,1 @@
+function dsc:main/plugin/update_size_info

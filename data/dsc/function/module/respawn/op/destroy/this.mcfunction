@@ -1,4 +1,7 @@
+execute if block ~ ~ ~ beacon run setblock ~ ~ ~ air
 scoreboard players operation $this outpost = @s outpost
+scoreboard players operation $this team = @s team
+execute as @a[tag=respawning] if score @s team = $this team at @s run function dsc:main/player/death/op/update_spawn
 execute on vehicle if entity @s[type=item_display] run function dsc:module/respawn/op/destroy/destroy_display
 
 data modify storage custom data set from entity @s data

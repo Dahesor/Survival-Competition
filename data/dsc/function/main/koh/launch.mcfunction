@@ -1,0 +1,1 @@
+scoreboard players set stage main 2

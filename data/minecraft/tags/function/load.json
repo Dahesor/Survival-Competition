@@ -1,5 +1,6 @@
 {
     "values": [
-        "dsc:load"
+        "dsc:load",
+        "dsc:core/math/gu/zzz/load"
     ]
 }

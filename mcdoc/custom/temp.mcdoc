@@ -1,0 +1,17 @@
+use ::java::util::slot::SlottedItem
+use ::java::world::item::ItemStack
+use ::java::world::entity::mob::player::PlayerEquipment
+use ::java::util::text::Text
+use ::mcdoc::dialog::dialog::DialogMix
+use ::mcdoc::dialog::dialog::DialogBodyMix
+
+dispatch minecraft:storage["temp"] to struct {
+    Inv?: [SlottedItem<byte @ -106..106>] @ -106..106,
+    item?: ItemStack,
+    equipment?: PlayerEquipment,
+    text?: Text,
+    dialog?: struct{
+        dialog?: DialogMix,
+        body?: (DialogBodyMix|[DialogBodyMix]),
+    }
+}

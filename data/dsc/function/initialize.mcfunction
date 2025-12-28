@@ -1,3 +1,4 @@
+function sidebar.dah:reload
 gamerule limited_crafting true
 recipe take @a *
 advancement revoke @a everything

@@ -1,8 +1,18 @@
 function dsc:main/init/centers
 scoreboard players set stage main -1
+scoreboard players reset @a death
 execute in overworld run worldborder set 47
 execute in the_nether run worldborder set 1024
 execute in the_end run worldborder set 512
+execute in overworld run worldborder damage buffer 0
+execute in the_nether run worldborder damage buffer 0
+execute in the_end run worldborder damage buffer 0
+execute in overworld run worldborder damage amount 1
+execute in the_nether run worldborder damage amount 1
+execute in the_end run worldborder damage amount 1
+execute in overworld run worldborder warning distance 2
+execute in the_nether run worldborder warning distance 2
+execute in the_end run worldborder warning distance 2
 
 execute positioned over motion_blocking_no_leaves positioned ~-23 ~ ~-23 run place template gen:center
 

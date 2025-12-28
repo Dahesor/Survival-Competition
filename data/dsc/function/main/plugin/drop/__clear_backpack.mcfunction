@@ -1,0 +1,1 @@
+$item replace entity @s container.$(i) with air

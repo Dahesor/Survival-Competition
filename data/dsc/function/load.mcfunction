@@ -14,11 +14,16 @@ scoreboard objectives add outpost dummy
 scoreboard objectives add outpost.state dummy
 scoreboard objectives add main dummy
 scoreboard objectives add used.ender_eye used:ender_eye
+scoreboard objectives add death deathCount
+scoreboard objectives add revive_time dummy
+scoreboard objectives add leave_game custom:leave_game
 stopwatch create dsc:master
 
 
 gamerule max_command_sequence_length 655360
 gamerule max_command_forks 655360
+gamerule immediate_respawn true
+gamerule keep_inventory true
 
 #NUM
 scoreboard players set #-1 calc.DSC -1

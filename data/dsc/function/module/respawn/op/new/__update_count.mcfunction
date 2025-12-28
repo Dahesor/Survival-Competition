@@ -1,0 +1,1 @@
+$return run scoreboard players add #team.$(team) outpost 1

@@ -1,27 +1,41 @@
 use::java::world::component::CustomData
 use::mcdoc::gen::vec3
+use ::java::util::slot::SlottedItem
 
 dispatch minecraft:storage["custom"] to struct {[any]: CustomData}
-
 dispatch mcdoc:custom_data["keeps_on_death"] to boolean
+dispatch mcdoc:custom_data["Inv"] to [SlottedItem<byte @ -106..106>] @ -106..106
 dispatch mcdoc:custom_data["outpost"] to struct{
     init?: boolean,
-    team?: #[color="named"] Teams,
+    team?: Team,
     id?: int,
 }
 
 dispatch minecraft:storage["team"] to struct {
     outpost?: struct{
         [Teams]?: [TeamOutpost],
-        new?: TeamOutpost
+        new?: TeamOutpost,
+        this?: [TeamOutpost],
+        ztemp?: TeamOutpost
+    },
+    misc?: struct{
+        color?: Team,
+        op_del?: struct{
+            id?: int,
+            team?: Team
+        }
     }
 }
 
 struct TeamOutpost{
     ...vec3,
     id?: int,
-    state?: int
+    state?: int,
+    count?: int,
+    marker?: #[uuid] string
 }
+
+type Team = #[color="named"] Teams
 
 enum(string) Teams{
     red = "red",

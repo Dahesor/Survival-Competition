@@ -1,1 +1,0 @@
-give @s wheat[custom_data={outpost:{}}]

@@ -6,3 +6,4 @@ tellraw @a [{text:"\n[gen:ac] 远古城市操作完成",color:"gray"}]
 forceload remove ~-120 ~-120 ~120 ~120
 scoreboard players set next gen 0
 schedule clear gen:ac/ticker
+schedule function gen:ac/reforce 1t

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "enther_portal":{
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "nether_portal"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dsc:main/uhc/utils/close_nether"
+    }
+}

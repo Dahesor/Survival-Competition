@@ -6,8 +6,7 @@ execute if score on main matches 1.. run function dsc:main/ticker
 
 function map:scanner/locater
 function map:render/draw
-#function map:render/draw
-tp 0-0-0-0-0 512 0 512
+tp 0-0-0-0-0 ~ 500 ~
 
 scoreboard players add #loop_20 calc.DSC 1
 execute if score #loop_20 calc.DSC matches 20.. run scoreboard players set #loop_20 calc.DSC 0

@@ -1,6 +1,5 @@
-scoreboard players operation $x calc.DSC = @s input
-scoreboard players operation $z calc.DSC = @s input
-scoreboard players set @s input 0
+scoreboard players operation $x calc.DSC = $this input
+scoreboard players operation $z calc.DSC = $this input
 
 scoreboard players operation $x calc.DSC %= #100 calc.DSC
 scoreboard players operation $z calc.DSC /= #100 calc.DSC

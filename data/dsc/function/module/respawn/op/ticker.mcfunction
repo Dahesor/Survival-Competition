@@ -1,5 +1,6 @@
 execute if entity @s[tag=outpost_init] run function dsc:module/respawn/op/new/initialize
 
+execute if score @s outpost.state matches -999 run return run function dsc:module/respawn/op/destroy/this
 execute unless block ~ ~ ~ beacon run return run function dsc:module/respawn/op/destroy/this
 
 execute unless block ~ ~1 ~ moving_piston run setblock ~ ~1 ~ moving_piston

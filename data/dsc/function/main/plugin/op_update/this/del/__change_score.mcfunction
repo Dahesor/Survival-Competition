@@ -1,0 +1,1 @@
+$scoreboard players set $(marker) outpost.state -999
