@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "minecraft_vex": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:vex"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dsc:module/adv/trigger/kill_all_mobs"
+    }
+}

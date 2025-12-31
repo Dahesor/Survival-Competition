@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "minecraft_bogged": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:bogged"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dsc:module/adv/trigger/kill_all_mobs"
+    }
+}

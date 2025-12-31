@@ -1,0 +1,134 @@
+{
+  "parent": "dsc_adv:adventure/chiseled_bookshelf",
+  "criteria": {
+    "desert_pyramid": {
+      "conditions": {
+        "loot_table": "minecraft:archaeology/desert_pyramid"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "desert_well": {
+      "conditions": {
+        "loot_table": "minecraft:archaeology/desert_well"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "has_sherd": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "ocean_ruin_cold": {
+      "conditions": {
+        "loot_table": "minecraft:archaeology/ocean_ruin_cold"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "ocean_ruin_warm": {
+      "conditions": {
+        "loot_table": "minecraft:archaeology/ocean_ruin_warm"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "trail_ruins_common": {
+      "conditions": {
+        "loot_table": "minecraft:archaeology/trail_ruins_common"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "trail_ruins_rare": {
+      "conditions": {
+        "loot_table": "minecraft:archaeology/trail_ruins_rare"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.salvage_sherd.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "4"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "4"
+        ]
+      }
+    ],
+    "icon": {
+      "count": 1,
+      "id": "minecraft:brush"
+    },
+    "title": {
+      "translate": "task.salvage_sherd",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "desert_pyramid",
+      "desert_well",
+      "ocean_ruin_cold",
+      "ocean_ruin_warm",
+      "trail_ruins_rare",
+      "trail_ruins_common"
+    ],
+    [
+      "has_sherd"
+    ]
+  ],
+  "rewards": {
+    "function": "dsc_adv:salvage_sherd"
+  }
+}

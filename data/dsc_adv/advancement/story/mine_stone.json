@@ -1,5 +1,5 @@
 {
-  "parent": "dsc_adv:story/root",
+  "parent": "dsc_adv:story/make_crafting_table",
   "criteria": {
     "get_stone": {
       "conditions": {

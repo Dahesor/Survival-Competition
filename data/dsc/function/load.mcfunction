@@ -9,7 +9,11 @@ scoreboard objectives add team dummy
 scoreboard objectives add score dummy
 scoreboard objectives add gen dummy
 scoreboard objectives add trigger.balanced_diet dummy
+scoreboard objectives add trigger.kill_all_mobs dummy
+scoreboard objectives add trigger.biomes dummy
+scoreboard objectives add trigger.pairs dummy
 scoreboard objectives add refreshCD dummy
+scoreboard objectives add health health
 scoreboard objectives add outpost dummy
 scoreboard objectives add outpost.state dummy
 scoreboard objectives add main dummy
@@ -40,6 +44,7 @@ scoreboard players set #20 calc.DSC 20
 scoreboard players set #22 calc.DSC 22
 scoreboard players set #32 calc.DSC 32
 scoreboard players set #48 calc.DSC 48
+scoreboard players set #60 calc.DSC 60
 scoreboard players set #100 calc.DSC 100
 scoreboard players set #200 calc.DSC 200
 scoreboard players set #341 calc.DSC 341

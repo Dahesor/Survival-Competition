@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "minecraft_blaze": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:blaze"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dsc:module/adv/trigger/kill_all_mobs"
+    }
+}

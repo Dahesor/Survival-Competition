@@ -1,0 +1,1 @@
+$advancement grant @s only dsc_adv:husbandry/bred_all_animals $(i)

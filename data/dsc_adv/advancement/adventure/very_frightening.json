@@ -1,5 +1,5 @@
 {
-  "parent": "dsc_adv:adventure/throw_trident",
+  "parent": "dsc_adv:adventure/lightning_rod",
   "criteria": {
     "struck_villager": {
       "conditions": {

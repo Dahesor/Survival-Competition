@@ -1,0 +1,6 @@
+tag @a[team=gray] add sidebar_player
+data modify storage team outpost.this set from storage team outpost.gray
+scoreboard players operation $this score = gray score
+function dsc:module/sidebar/this/page
+function sidebar.dah:modify/this
+tag @a[team=gray] remove sidebar_player

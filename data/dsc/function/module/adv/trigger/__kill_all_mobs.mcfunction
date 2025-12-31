@@ -1,0 +1,1 @@
+$advancement grant @s only dsc_adv:adventure/kill_all_mobs $(i)

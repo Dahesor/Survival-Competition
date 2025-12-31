@@ -1,0 +1,121 @@
+{
+  "parent": "dsc_adv:adventure/kill_all_mobs",
+  "criteria": {
+    "1": {
+      "trigger": "impossible"
+    },
+    "2": {
+      "trigger": "impossible"
+    },
+    "3": {
+      "trigger": "impossible"
+    },
+    "4": {
+      "trigger": "impossible"
+    },
+    "5": {
+      "trigger": "impossible"
+    },
+    "6": {
+      "trigger": "impossible"
+    },
+    "7": {
+      "trigger": "impossible"
+    },
+    "8": {
+      "trigger": "impossible"
+    },
+    "9": {
+      "trigger": "impossible"
+    },
+    "10": {
+      "trigger": "impossible"
+    },
+    "11": {
+      "trigger": "impossible"
+    },
+    "12": {
+      "trigger": "impossible"
+    },
+    "13": {
+      "trigger": "impossible"
+    },
+    "14": {
+      "trigger": "impossible"
+    },
+    "15": {
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.adventuring_time.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "4"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "4"
+        ]
+      }
+    ],
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_boots"
+    },
+    "title": {
+      "translate": "task.adventuring_time",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "rewards": {
+    "function": "dsc_adv:adventuring_time"
+  }
+}

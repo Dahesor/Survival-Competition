@@ -1,0 +1,127 @@
+{
+  "parent": "dsc_adv:adventure/trade/final",
+  "criteria": {
+    "i": {
+      "trigger": "impossible"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.voluntary_exile.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "4"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "4"
+        ]
+      }
+    ],
+    "hidden": false,
+    "icon": {
+      "components": {
+        "minecraft:banner_patterns": [
+          {
+            "color": "cyan",
+            "pattern": "minecraft:rhombus"
+          },
+          {
+            "color": "light_gray",
+            "pattern": "minecraft:stripe_bottom"
+          },
+          {
+            "color": "gray",
+            "pattern": "minecraft:stripe_center"
+          },
+          {
+            "color": "light_gray",
+            "pattern": "minecraft:border"
+          },
+          {
+            "color": "black",
+            "pattern": "minecraft:stripe_middle"
+          },
+          {
+            "color": "light_gray",
+            "pattern": "minecraft:half_horizontal"
+          },
+          {
+            "color": "light_gray",
+            "pattern": "minecraft:circle"
+          },
+          {
+            "color": "black",
+            "pattern": "minecraft:border"
+          }
+        ],
+        "minecraft:item_name": {
+          "translate": "block.minecraft.ominous_banner"
+        },
+        "minecraft:rarity": "uncommon",
+        "minecraft:tooltip_display": {
+          "hidden_components": [
+            "minecraft:banner_patterns"
+          ]
+        }
+      },
+      "count": 1,
+      "id": "minecraft:white_banner"
+    },
+    "title": {
+      "translate": "task.first",
+      "color": "white",
+      "with": [
+        {
+          "translate": "task.voluntary_exile",
+          "italic": false
+        }
+      ]
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  }
+}

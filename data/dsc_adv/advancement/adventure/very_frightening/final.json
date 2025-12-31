@@ -1,5 +1,5 @@
 {
-  "parent": "dsc_adv:adventure/throw_trident/final",
+  "parent": "dsc_adv:adventure/lightning_rod/final",
   "criteria": {
     "i": {
       "trigger": "impossible"
@@ -63,7 +63,10 @@
     ],
     "icon": {
       "count": 1,
-      "id": "minecraft:trident"
+      "id": "minecraft:trident",
+      "components": {
+        "enchantment_glint_override": true
+      }
     },
     "title": {
       "translate": "task.first",
@@ -76,6 +79,7 @@
       ]
     },
     "show_toast": false,
-    "announce_to_chat": false
+    "announce_to_chat": false,
+    "frame": "challenge"
   }
 }

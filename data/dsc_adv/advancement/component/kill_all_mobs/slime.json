@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "minecraft_slime": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dsc:module/adv/trigger/kill_all_mobs"
+    }
+}

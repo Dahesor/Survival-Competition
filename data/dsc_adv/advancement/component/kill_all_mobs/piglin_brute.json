@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "minecraft_piglin_brute": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin_brute"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dsc:module/adv/trigger/kill_all_mobs"
+    }
+}

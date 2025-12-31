@@ -1,5 +1,5 @@
 {
-  "parent": "dsc_adv:adventure/root",
+  "parent": "dsc_adv:adventure/heart_transplanter",
   "criteria": {
     "avoid_vibration": {
       "trigger": "minecraft:avoid_vibration"

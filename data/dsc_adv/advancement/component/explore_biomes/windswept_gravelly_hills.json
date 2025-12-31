@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "loc": {
+            "trigger": "location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biomes": "minecraft:windswept_gravelly_hills"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "dsc:module/adv/trigger/biomes"
+    }
+}

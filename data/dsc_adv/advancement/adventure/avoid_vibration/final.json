@@ -1,5 +1,5 @@
 {
-  "parent": "dsc_adv:adventure/root/final",
+  "parent": "dsc_adv:adventure/heart_transplanter/final",
   "criteria": {
     "i": {
       "trigger": "impossible"

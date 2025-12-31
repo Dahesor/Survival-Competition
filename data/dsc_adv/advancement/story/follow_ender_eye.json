@@ -1,21 +1,8 @@
 {
   "parent": "dsc_adv:story/enter_the_nether",
   "criteria": {
-    "in_stronghold": {
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "structures": "minecraft:stronghold"
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:location"
+    "im": {
+      "trigger": "impossible"
     }
   },
   "display": {
@@ -85,11 +72,6 @@
     "show_toast": true,
     "announce_to_chat": false
   },
-  "requirements": [
-    [
-      "in_stronghold"
-    ]
-  ],
   "rewards": {
     "function": "dsc_adv:follow_ender_eye"
   }

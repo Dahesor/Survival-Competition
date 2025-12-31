@@ -1,5 +1,5 @@
 {
-  "parent": "dsc_adv:story/root/final",
+  "parent": "dsc_adv:story/make_crafting_table/final",
   "criteria": {
     "i": {
       "trigger": "impossible"

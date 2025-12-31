@@ -1,0 +1,103 @@
+{
+  "parent": "dsc_adv:adventure/salvage_sherd",
+  "criteria": {
+    "pot_crafted_using_only_sherds": {
+      "conditions": {
+        "ingredients": [
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          },
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          },
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          },
+          {
+            "items": "#minecraft:decorated_pot_sherds"
+          }
+        ],
+        "recipe_id": "minecraft:decorated_pot"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.craft_decorated_pot.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "4"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "4"
+        ]
+      }
+    ],
+    "icon": {
+      "components": {
+        "minecraft:pot_decorations": [
+          "minecraft:brick",
+          "minecraft:heart_pottery_sherd",
+          "minecraft:brick",
+          "minecraft:explorer_pottery_sherd"
+        ]
+      },
+      "count": 1,
+      "id": "minecraft:decorated_pot"
+    },
+    "title": {
+      "translate": "task.craft_decorated_pot",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "rewards": {
+    "function": "dsc_adv:craft_decorated_pot"
+  }
+}

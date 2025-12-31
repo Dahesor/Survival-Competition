@@ -11,9 +11,14 @@ dispatch minecraft:storage["temp"] to struct {
     item?: ItemStack,
     equipment?: PlayerEquipment,
     text?: Text,
+    text_storage?: struct{
+        [any]?: Text
+    },
     dialog?: struct{
         dialog?: DialogMix,
         body?: (DialogBodyMix|[DialogBodyMix]),
     },
     team?: Team,
+    time_text?: Text,
+    time_holder?: int
 }

@@ -90,3 +90,6 @@ scoreboard players set pink score 0
 scoreboard players set white score 0
 scoreboard players set orange score 0
 scoreboard players set gray score 0
+
+data modify storage temp time_text set value [{text:"",shadow_color:-16579829},{text:":"},{text:""},{text:""},{text:" "}]
+data modify storage temp time_holder set value -1
