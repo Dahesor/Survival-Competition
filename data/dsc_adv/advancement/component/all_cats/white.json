@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "minecraft:white": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "components": {
+                "minecraft:cat/variant": "minecraft:white"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsc:module/adv/trigger/tame_cats"
+  }
+}

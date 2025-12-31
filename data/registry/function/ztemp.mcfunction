@@ -1,5 +1,5 @@
 data modify storage dsc:task new append value {\
-    advancement:"dsc_adv:adventure/root",\
+    advancement:"dsc_adv:nether/root",\
     all_reward:{emerald:2,score:4},\
     first_reward:{emerald:4,score:5},\
     display:{lore_length:1},\

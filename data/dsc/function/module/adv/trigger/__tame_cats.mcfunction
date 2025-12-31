@@ -1,1 +1,1 @@
-$advancement grant @s only dsc_adv:adventure/kill_all_mobs $(i)
+$advancement grant @s only dsc_adv:husbandry/complete_catalogue $(i)

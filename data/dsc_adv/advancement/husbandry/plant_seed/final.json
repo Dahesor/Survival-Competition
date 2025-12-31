@@ -75,7 +75,7 @@
     ],
     "icon": {
       "count": 1,
-      "id": "minecraft:wheat"
+      "id": "minecraft:wheat_seeds"
     },
     "title": {
       "translate": "task.first",

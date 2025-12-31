@@ -12,6 +12,8 @@ scoreboard objectives add trigger.balanced_diet dummy
 scoreboard objectives add trigger.kill_all_mobs dummy
 scoreboard objectives add trigger.biomes dummy
 scoreboard objectives add trigger.pairs dummy
+scoreboard objectives add trigger.tame_cats dummy
+scoreboard objectives add trigger.tame_dogs dummy
 scoreboard objectives add refreshCD dummy
 scoreboard objectives add health health
 scoreboard objectives add outpost dummy

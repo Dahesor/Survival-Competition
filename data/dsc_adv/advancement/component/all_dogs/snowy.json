@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "minecraft:snowy": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "components": {
+                "minecraft:wolf/variant": "minecraft:snowy"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "rewards": {
+    "function": "dsc:module/adv/trigger/tame_dogs"
+  }
+}

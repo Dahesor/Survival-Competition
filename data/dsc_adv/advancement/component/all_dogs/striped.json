@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "minecraft:striped": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "components": {
+                "minecraft:wolf/variant": "minecraft:striped"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:tame_animal"
+    }
+  },
+  "rewards": {
+    "function": "dsc:module/adv/trigger/tame_dogs"
+  }
+}

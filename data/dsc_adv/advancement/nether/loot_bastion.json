@@ -1,0 +1,107 @@
+{
+  "parent": "dsc_adv:nether/distract_piglin",
+  "criteria": {
+    "loot_bastion_bridge": {
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_bridge"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "loot_bastion_hoglin_stable": {
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_hoglin_stable"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "loot_bastion_other": {
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_other"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "loot_bastion_treasure": {
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_treasure"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    }
+  },
+  "display": {
+    "description": [
+      {
+        "translate": "task.loot_bastion.1",
+        "italic": false,
+        "color": "gray"
+      },
+      "\n",
+      {
+        "translate": "task.reward",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "4"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "2"
+        ]
+      },
+      "\n",
+      {
+        "translate": "task.reward_first",
+        "italic": false,
+        "color": "light_purple"
+      },
+      "\n",
+      {
+        "translate": "reward.score",
+        "italic": false,
+        "color": "gold",
+        "with": [
+          "5"
+        ]
+      },
+      "\n",
+      {
+        "translate": "reward.emerald",
+        "italic": false,
+        "color": "green",
+        "with": [
+          "4"
+        ]
+      }
+    ],
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "task.loot_bastion",
+      "italic": false
+    },
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "requirements": [
+    [
+      "loot_bastion_other",
+      "loot_bastion_treasure",
+      "loot_bastion_hoglin_stable",
+      "loot_bastion_bridge"
+    ]
+  ],
+  "rewards": {
+    "function": "dsc_adv:loot_bastion"
+  }
+}

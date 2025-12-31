@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "effects_changed":{
+            "trigger": "effects_changed"
+        }
+    },
+    "rewards": {
+        "function": "dsc:module/adv/trigger/all_effects"
+    }
+}

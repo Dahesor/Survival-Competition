@@ -1,0 +1,1 @@
+$advancement grant @s only dsc_adv:husbandry/whole_pack $(i)

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "minecraft:calico": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "components": {
+                "minecraft:cat/variant": "minecraft:calico"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "dsc:module/adv/trigger/tame_cats"
+  }
+}
