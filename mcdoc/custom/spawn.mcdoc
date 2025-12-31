@@ -16,6 +16,7 @@ dispatch minecraft:storage["team"] to struct {
         [Teams]?: [TeamOutpost],
         new?: TeamOutpost,
         this?: [TeamOutpost],
+        run?: [TeamOutpost],
         ztemp?: TeamOutpost
     },
     misc?: struct{

@@ -13,3 +13,4 @@ scoreboard players remove END_EVENT_CLOSE_TIME main 18000
 scoreboard players operation END_CLOSE_TIME main = STAGE_3_START_TIME main
 scoreboard players remove END_CLOSE_TIME main 12000
 scoreboard players set INVINCIBLE_TIME main 6000
+scoreboard players set ACE_RESPAWN_TIME main 1500

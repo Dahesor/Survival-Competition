@@ -1,3 +1,4 @@
+execute if entity @s[tag=aced] run return run dialog clear @s
 execute if score $this input matches -1 run return run function dsc:main/player/death/menu/arrange
 execute at @s run playsound ui.button.click master @s ~ ~ ~ 0.9 1.3
 data modify storage team outpost.ztemp set value {x:0,y:0,z:0,id:-1,state:3}

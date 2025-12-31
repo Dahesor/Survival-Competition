@@ -1,0 +1,1 @@
+$execute in overworld positioned $(x) 320 $(z) run tp @s ~ ~ ~

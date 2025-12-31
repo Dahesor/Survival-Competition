@@ -12,3 +12,5 @@ execute as @a[scores={team=1..}] at @s run function dsc:main/player/self
 
 execute if score #loop_20 calc.DSC matches 1 run function dsc:main/plugin/op_update/start
 execute if score #loop_20 calc.DSC matches 18 run function dsc:main/second
+
+#========== Order Matters ==========
