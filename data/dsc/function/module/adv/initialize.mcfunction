@@ -10,3 +10,10 @@ schedule function dsc:module/adv/init/hus 7t
 schedule function dsc:module/adv/init/hus_final 8t
 schedule function dsc:module/adv/init/end 9t
 schedule function dsc:module/adv/init/end_final 10t
+
+scoreboard players reset * trigger.balanced_diet
+scoreboard players reset * trigger.biomes
+scoreboard players reset * trigger.kill_all_mobs
+scoreboard players reset * trigger.pairs
+scoreboard players reset * trigger.tame_cats
+scoreboard players reset * trigger.tame_dogs

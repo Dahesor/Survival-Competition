@@ -5,7 +5,7 @@ clear @a
 effect clear @a
 effect give @a instant_health 1 5
 execute as @a at @s run playsound block.end_portal.spawn master @s
-function dsc:module/adv/initialize
+
 weather clear
 time set day
 recipe take @a *

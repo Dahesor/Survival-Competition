@@ -23,15 +23,3 @@ recipe take @s dsc:special/emerald_convert/5
 recipe take @s dsc:special/emerald_convert/6
 recipe take @s dsc:special/emerald_convert/7
 recipe take @s dsc:special/emerald_convert/8
-recipe take @s wooden_axe
-recipe take @s wooden_hoe
-recipe take @s wooden_pickaxe
-recipe take @s wooden_sword
-recipe take @s wooden_shovel
-recipe take @s leather_boots
-recipe take @s leather_chestplate
-recipe take @s leather_helmet
-recipe take @s leather_leggings
-recipe take @s furnace
-recipe take @s barrel
-recipe take @s ladder
