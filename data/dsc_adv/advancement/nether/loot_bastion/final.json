@@ -44,7 +44,7 @@
       },
       "\n",
       {
-        "text": "附魔台",
+        "text": "附魔台\n红石比较器，红石中继器",
         "italic": false,
         "color": "gray"
       },
@@ -71,6 +71,18 @@
         "with": [
           "4"
         ]
+      },
+      "\n",
+      {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "观察者",
+        "italic": false,
+        "color": "gray"
       }
     ],
     "icon": {

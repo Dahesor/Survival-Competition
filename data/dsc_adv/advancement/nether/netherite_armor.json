@@ -1,5 +1,5 @@
 {
-  "parent": "dsc_adv:nether/charge_respawn_anchor",
+  "parent": "dsc_adv:nether/obtain_ancient_debris",
   "criteria": {
     "netherite_armor": {
       "conditions": {

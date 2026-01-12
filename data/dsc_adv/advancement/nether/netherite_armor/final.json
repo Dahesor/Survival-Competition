@@ -1,5 +1,5 @@
 {
-  "parent": "dsc_adv:nether/charge_respawn_anchor/final",
+  "parent": "dsc_adv:nether/obtain_ancient_debris/final",
   "criteria": {
     "i": {
       "trigger": "impossible"

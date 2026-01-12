@@ -1,5 +1,5 @@
 {
-  "parent": "dsc_adv:nether/obtain_ancient_debris",
+  "parent": "dsc_adv:nether/explore_nether",
   "criteria": {
     "charge_respawn_anchor": {
       "conditions": {

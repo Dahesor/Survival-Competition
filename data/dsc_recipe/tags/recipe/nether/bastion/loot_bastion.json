@@ -1,5 +1,7 @@
 {
     "values": [
-        "enchanting_table"
+        "enchanting_table",
+        "comparator",
+        "repeater"
     ]
 }
