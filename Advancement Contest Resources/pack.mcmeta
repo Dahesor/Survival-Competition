@@ -1,0 +1,17 @@
+{
+    "pack": {
+        "min_format": 75,
+        "max_format": 75,
+        "pack_format": 75,
+        "description": "Resource Pack for Survival Competition\nBy Dahesor"
+    },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "lang",
+        "min_format": [69, 0],
+        "max_format": [200, 0]
+      }
+    ]
+  }
+}

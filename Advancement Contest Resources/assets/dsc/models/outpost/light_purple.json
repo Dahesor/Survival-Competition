@@ -1,0 +1,9 @@
+{
+    "parent": "dsc:outpost/parent",
+    "textures": {
+        "particle": "block/glass",
+        "glass": "dsc:block/clear_glass",
+        "obsidian": "block/obsidian",
+        "beacon": "dsc:block/outpost/pink"
+    }
+}

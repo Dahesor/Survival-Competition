@@ -1,0 +1,39 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "chars": ["\u2764"],
+            "ascent": 8,
+            "height": 9,
+            "file": "sidebar.dah:gui/heart.png"
+        },
+        {
+            "type": "bitmap",
+            "chars": ["\u26f3"],
+            "ascent": 7,
+            "height": 8,
+            "file": "sidebar.dah:gui/becon.png"
+        },
+        {
+            "type": "bitmap",
+            "chars": ["\u26f4"],
+            "ascent": 7,
+            "height": 8,
+            "file": "sidebar.dah:gui/becon_warning.png"
+        },
+        {
+            "type": "bitmap",
+            "chars": ["\u26f5"],
+            "ascent": 7,
+            "height": 8,
+            "file": "sidebar.dah:gui/becon_danger.png"
+        },
+        {
+            "type": "bitmap",
+            "chars": ["\u26f6"],
+            "ascent": 7,
+            "height": 8,
+            "file": "sidebar.dah:gui/becon_locked.png"
+        }
+    ]
+}

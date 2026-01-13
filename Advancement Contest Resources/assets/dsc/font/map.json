@@ -1,0 +1,19 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "ascent": 2,
+            "height": 3,
+            "chars": ["█"],
+            "file": "dsc:font/map.png"
+        },
+        {
+            "type": "reference",
+            "id": "dsc:space"
+        },
+        {
+            "type": "reference",
+            "id": "dsc:button"
+        }
+    ]
+}

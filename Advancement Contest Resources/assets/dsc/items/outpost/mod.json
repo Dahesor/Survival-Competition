@@ -1,0 +1,68 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "cases": [
+            {
+                "when": "red",
+                "model": {
+                    "type": "model",
+                    "model": "dsc:outpost/red"
+                }
+            },
+            {
+                "when": "green",
+                "model": {
+                    "type": "model",
+                    "model": "dsc:outpost/green"
+                }
+            },
+            {
+                "when": "blue",
+                "model": {
+                    "type": "model",
+                    "model": "dsc:outpost/blue"
+                }
+            },
+            {
+                "when": "light_purple",
+                "model": {
+                    "type": "model",
+                    "model": "dsc:outpost/light_purple"
+                }
+            },
+            {
+                "when": "white",
+                "model": {
+                    "type": "model",
+                    "model": "dsc:outpost/white"
+                }
+            },
+            {
+                "when": "gray",
+                "model": {
+                    "type": "model",
+                    "model": "dsc:outpost/gray"
+                }
+            },
+            {
+                "when": "gold",
+                "model": {
+                    "type": "model",
+                    "model": "dsc:outpost/gold"
+                }
+            },
+            {
+                "when": "yellow",
+                "model": {
+                    "type": "model",
+                    "model": "dsc:outpost/yellow"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "model",
+            "model": "dsc:outpost/white"
+        }
+    }
+}

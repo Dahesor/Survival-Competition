@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "height": 18,
+            "ascent": 11,
+            "chars": ["*"],
+            "file": "dsc:font/button.png"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "near_distance": 24,
+    "far_distance": 500,
+    "sprites": [
+        "dsc:hill_c_0",
+        "dsc:hill_c_1",
+        "dsc:hill_c_2",
+        "dsc:hill_c_3",
+        "dsc:hill_c_4"
+    ]
+}

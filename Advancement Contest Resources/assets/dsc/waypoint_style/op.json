@@ -1,0 +1,8 @@
+{
+    "near_distance": 25,
+    "far_distance": 50,
+    "sprites": [
+        "dsc:op_1",
+        "dsc:op_2"
+    ]
+}

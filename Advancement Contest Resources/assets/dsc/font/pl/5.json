@@ -1,0 +1,56 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "height": 12,
+            "ascent": 0,
+            "chars": [
+                "vitmjdoa",
+                "phfbE\ufe00\ufe01\ufe02",
+                "ＲＧＢＹＰＷＯＬ",
+                "RGBYPWOL",
+                "\ufe10\ufe11\ufe12\ufe13\ufe14\ufe15\ufe16\ufe17",
+                "\ufe20\ufe21\ufe22\ufe23\ufe24\ufe25\ufe26\ufe27",
+                "\ufe30\ufe31\ufe32\ufe33\ufe34\ufe35\ufe36\ufe37",
+                "\ufe40\ufe41\ufe42\ufe43\ufe44\ufe45\ufe46\ufe47"
+            ],
+            "file": "dsc:font/dec/sprites.png"
+        },
+        {
+            "type": "bitmap",
+            "height": 12,
+            "ascent": 0,
+            "chars": ["n"],
+            "file": "dsc:font/player/n.png"
+        },
+        {
+            "type": "bitmap",
+            "height": 12,
+            "ascent": 0,
+            "chars": ["s"],
+            "file": "dsc:font/player/s.png"
+        },
+        {
+            "type": "bitmap",
+            "height": 12,
+            "ascent": 0,
+            "chars": ["e"],
+            "file": "dsc:font/player/e.png"
+        },
+        {
+            "type": "bitmap",
+            "height": 12,
+            "ascent": 0,
+            "chars": ["w"],
+            "file": "dsc:font/player/w.png"
+        },
+        {
+            "type": "reference",
+            "id": "dsc:space"
+        },
+        {
+            "type": "reference",
+            "id": "dsc:pl/revert"
+        }
+    ]
+}
