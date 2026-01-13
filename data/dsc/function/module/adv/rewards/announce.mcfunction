@@ -1,4 +1,4 @@
 execute if data storage dsc:task this{completed:false} run tellraw @a ["",{text:"[!]",color:"yellow"}," ",{selector:"@s"},{text:"率先达成了",color:"light_purple"},"[",{storage:"dsc:task",nbt:"this.display.title",interpret:true,hover_event:{action:"show_text",value:{storage:"dsc:task",nbt:"this.display.lore",interpret:true}}},"]"]
 execute unless data storage dsc:task this{completed:false} run tellraw @a ["",{text:"[!]",color:"white"}," ",{selector:"@s"},{text:"达成了",color:"white"},"[",{storage:"dsc:task",nbt:"this.display.title",interpret:true,hover_event:{action:"show_text",value:{storage:"dsc:task",nbt:"this.display.lore",interpret:true}}},"]"]
 
-execute if data storage dsc:task this{completed:false} as @a at @s run playsound block.note_block.harp master @s ~ ~ ~
+execute if data storage dsc:task this{completed:false} as @a at @s run playsound block.note_block.harp master @s ~ ~ ~ 0.8

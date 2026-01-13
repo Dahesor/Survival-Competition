@@ -1,1 +1,1 @@
-recipe give @s blaze_powder
+recipe give @s respawn_anchor

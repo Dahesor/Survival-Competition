@@ -31,16 +31,7 @@
         "italic": false,
         "color": "gold",
         "with": [
-          "4"
-        ]
-      },
-      "\n",
-      {
-        "translate": "reward.emerald",
-        "italic": false,
-        "color": "green",
-        "with": [
-          "2"
+          "1"
         ]
       },
       "\n",
@@ -55,7 +46,7 @@
         "italic": false,
         "color": "gold",
         "with": [
-          "5"
+          "24"
         ]
       },
       "\n",
@@ -64,8 +55,20 @@
         "italic": false,
         "color": "green",
         "with": [
-          "4"
+          "20"
         ]
+      },
+      "\n",
+      {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "全套钻石装备\n书架，铁砧\n不死图腾",
+        "italic": false,
+        "color": "gray"
       }
     ],
     "frame": "goal",

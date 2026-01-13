@@ -1,4 +1,4 @@
-
+execute as @a run attribute @s block_interaction_range modifier remove gen:block
 function dsc:main/init/centers
 scoreboard players set stage main -1
 scoreboard players reset @a death
@@ -24,3 +24,5 @@ schedule function dsc:main/init/countdown/3 7s
 schedule function dsc:main/init/countdown/2 8s
 schedule function dsc:main/init/countdown/1 9s
 schedule function dsc:main/init/countdown/start 10s
+
+execute positioned over motion_blocking run tp @a[team=] ~ ~5 ~

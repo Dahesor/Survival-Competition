@@ -1,4 +1,4 @@
-data modify storage sidebar.dah:data ui set value {lore:[{text:""},[{translate:"e.rank",with:["1"],shadow_color:-16579829},{text:"     "},{translate:"e.score",with:["1"]}]]}
+data modify storage sidebar.dah:data ui set value {lore:[{text:""},[{translate:"e.rank",with:["?"],shadow_color:-16579829},{text:"     "},{translate:"e.score",with:["1"]}]]}
 
 data modify storage sidebar.dah:data ui.title set from storage temp time_text
 

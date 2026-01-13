@@ -9,6 +9,7 @@ execute as @a at @s run playsound block.end_portal.spawn master @s
 weather clear
 time set day
 recipe take @a *
+gamerule block_drops true
 function map:reset_main
 
 #Player Setup

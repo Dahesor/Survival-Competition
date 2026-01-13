@@ -51,7 +51,7 @@
       },
       "\n",
       {
-        "text": "纸，书\n打火石",
+        "text": "纸，书\n打火石\n高炉",
         "italic": false,
         "color": "gray"
       },
@@ -78,6 +78,18 @@
         "with": [
           "4"
         ]
+      },
+      "\n",
+      {
+        "translate": "reward.recipe",
+        "italic": false,
+        "color": "aqua"
+      },
+      "\n",
+      {
+        "text": "切石机",
+        "italic": false,
+        "color": "gray"
       }
     ],
     "icon": {

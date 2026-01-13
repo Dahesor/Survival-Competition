@@ -1,5 +1,7 @@
 #$(id)
 
+execute unless score enable_adv main matches 1 run return fail
+execute unless score @s team matches 1.. run return fail
 execute if score $linked calc.DSC matches 1 run return fail
 scoreboard players set $linked calc.DSC 1
 

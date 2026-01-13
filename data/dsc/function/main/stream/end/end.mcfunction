@@ -15,3 +15,7 @@ title @a subtitle ""
 execute as @a at @s run playsound ui.toast.challenge_complete master @s ~ ~ ~ 1 0.7 1
 
 function dsc:main/stream/end/scores/all
+
+execute in overworld run worldborder add 1 1
+execute in the_nether run worldborder add 1 1
+execute in the_end run worldborder add 1 1
