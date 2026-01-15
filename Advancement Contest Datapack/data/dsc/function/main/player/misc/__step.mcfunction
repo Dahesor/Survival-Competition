@@ -1,0 +1,2 @@
+$execute positioned $(x) ~ $(z) if entity @s[distance=..20] at @s run return run function dsc:main/player/misc/__step_close with storage main: stronghold.pos
+$execute facing $(x) ~ $(z) rotated ~ -30 positioned ^ ^ ^10 run function dsc:main/player/misc/spawn

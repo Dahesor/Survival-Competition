@@ -1,3 +1,14 @@
 {
-  "type": "minecraft:empty"
+  "type": "block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "dsc:id/op"
+        }
+      ]
+    }
+  ]
 }

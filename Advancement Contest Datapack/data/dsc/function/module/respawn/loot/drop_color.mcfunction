@@ -1,0 +1,1 @@
+$loot spawn ~ ~ ~ loot dsc:props/op/$(color)

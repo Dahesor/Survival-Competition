@@ -13,4 +13,7 @@ execute as @a[scores={team=1..}] at @s run function dsc:main/player/self
 execute if score #loop_20 calc.DSC matches 1 run function dsc:main/plugin/op_update/start
 execute if score #loop_20 calc.DSC matches 18 run function dsc:main/second
 
+#Selectors
+execute as @e[type=item] if items entity @s contents barrier[custom_data~{becon_drop:true}] at @s run function dsc:module/respawn/drop/item
+
 #========== Order Matters ==========

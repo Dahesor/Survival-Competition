@@ -17,7 +17,8 @@ data modify storage custom data set from entity @s data
 execute store result score #amount outpost run function dsc:module/respawn/op/new/__get_amount with storage custom data.outpost
 execute if score #amount outpost matches 5.. run return run function dsc:module/respawn/op/new/return
 
-setblock ~ ~ ~ beacon
+setblock ~ ~ ~ beacon{lock:{components:{custom_data:{outpost:{team:"red"},beacon_lock:true}}}}
+data modify block ~ ~ ~ lock.components."minecraft:custom_data".outpost.team set from storage custom data.outpost.team
 setblock ~ ~1 ~ moving_piston
 setblock ~ ~2 ~ moving_piston
 playsound block.beacon.activate master @a ~ ~ ~

@@ -1,7 +1,7 @@
 data modify storage dsc:task new append value {\
     advancement:"dsc_adv:adventure/kill_a_mob",\
-    all_reward:{emerald:2,score:4},\
-    first_reward:{emerald:4,score:5,recipe:"dsc_recipe:adventure/monster_hunter"},\
+    all_reward:{emerald:2,score:4,recipe:"dsc_recipe:adventure/monster_hunter"},\
+    first_reward:{emerald:4,score:5},\
     display:{lore_length:1},\
     additional_lore:{\
         all_:"",\

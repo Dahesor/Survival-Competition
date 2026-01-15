@@ -12,7 +12,8 @@ scoreboard players set #winning calc.DSC 0
 scoreboard players set #max calc.DSC 0
 function dsc:main/koh/run/highest
 
-scoreboard players operation koh_winning main = #winning calc.DSC
+execute if score #winning calc.DSC matches 0.. run scoreboard players operation koh_winning main = #winning calc.DSC
+execute if score #winning calc.DSC matches -1 unless score koh_winning main matches 1.. run scoreboard players set koh_winning main 0
 
 execute if score koh_winning main matches 1.. on vehicle run waypoint modify @s style set dsc:hill
 execute if score koh_winning main matches 0 on vehicle run function dsc:main/koh/run/cases/contested

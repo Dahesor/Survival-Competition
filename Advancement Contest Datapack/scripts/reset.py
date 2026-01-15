@@ -25,6 +25,10 @@ def reset_world(world_folder, data_pack_folder, source_folder):
         del data['spawn']
     except KeyError:
         pass
+    try:
+        del data['DragonFight']
+    except KeyError:
+        pass
     # 保存修改
     nbt_file.save(level_data_path)
     print('💾 新的 level.dat 已保存！')

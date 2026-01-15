@@ -1,0 +1,45 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [{"type": "loot_table","value": "dsc:props/op/red"}],
+            "conditions": [{"condition": "entity_scores","entity": "this","scores": {"team": 1}}]
+        },
+        {
+            "rolls": 1,
+            "entries": [{"type": "loot_table","value": "dsc:props/op/green"}],
+            "conditions": [{"condition": "entity_scores","entity": "this","scores": {"team": 2}}]
+        },
+        {
+            "rolls": 1,
+            "entries": [{"type": "loot_table","value": "dsc:props/op/blue"}],
+            "conditions": [{"condition": "entity_scores","entity": "this","scores": {"team": 3}}]
+        },
+        {
+            "rolls": 1,
+            "entries": [{"type": "loot_table","value": "dsc:props/op/yellow"}],
+            "conditions": [{"condition": "entity_scores","entity": "this","scores": {"team": 4}}]
+        },
+        {
+            "rolls": 1,
+            "entries": [{"type": "loot_table","value": "dsc:props/op/light_purple"}],
+            "conditions": [{"condition": "entity_scores","entity": "this","scores": {"team": 5}}]
+        },
+        {
+            "rolls": 1,
+            "entries": [{"type": "loot_table","value": "dsc:props/op/white"}],
+            "conditions": [{"condition": "entity_scores","entity": "this","scores": {"team": 6}}]
+        },
+        {
+            "rolls": 1,
+            "entries": [{"type": "loot_table","value": "dsc:props/op/gold"}],
+            "conditions": [{"condition": "entity_scores","entity": "this","scores": {"team": 7}}]
+        },
+        {
+            "rolls": 1,
+            "entries": [{"type": "loot_table","value": "dsc:props/op/gray"}],
+            "conditions": [{"condition": "entity_scores","entity": "this","scores": {"team": 8}}]
+        }
+    ]
+}

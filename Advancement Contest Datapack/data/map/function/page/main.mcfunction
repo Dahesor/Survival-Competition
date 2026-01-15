@@ -5,3 +5,4 @@ execute if entity @a[tag=dsc.mapping,scores={md.dimension=2}] run function map:p
 
 tag @a remove dsc.__mapping_request
 tag @a[tag=map.static] remove dsc.mapping
+

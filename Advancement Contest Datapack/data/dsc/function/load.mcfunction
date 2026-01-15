@@ -20,6 +20,7 @@ scoreboard objectives add outpost dummy
 scoreboard objectives add outpost.state dummy
 scoreboard objectives add main dummy
 scoreboard objectives add used.ender_eye used:ender_eye
+scoreboard objectives add used.map used:map
 scoreboard objectives add death deathCount
 scoreboard objectives add revive_time dummy
 scoreboard objectives add leave_game custom:leave_game

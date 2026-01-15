@@ -1,0 +1,48 @@
+{
+    "type": "command",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "paper",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 24
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "map",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "type": "score",
+                                "target": {
+                                    "type": "fixed",
+                                    "name": "#count"
+                                },
+                                "score": "calc.DSC"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "functions": [
+        {
+            "function": "reference",
+            "name": "dsc:update_map"
+        }
+    ]
+}

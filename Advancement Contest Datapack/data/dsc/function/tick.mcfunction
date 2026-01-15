@@ -17,3 +17,4 @@ execute if score #loop_20 calc.DSC matches 9 unless score on main matches 1.. if
 scoreboard players remove $map_frame calc.DSC 1
 execute if entity @a[tag=dsc.__mapping_request] run function map:page/main
 execute if score $map_frame calc.DSC matches ..0 if entity @a[tag=dsc.mapping] run function map:page/main
+

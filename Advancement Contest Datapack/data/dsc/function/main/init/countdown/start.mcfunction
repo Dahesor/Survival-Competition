@@ -14,6 +14,8 @@ function map:reset_main
 
 #Player Setup
 execute as @a[team=!] run function dsc:core/relate/team_assign_score
+tag @a[scores={team=1..}] add __give_map
+execute as @a[scores={team=1..},sort=random] run function dsc:main/init/map/player
 
 #Spawn Players
 data modify storage run temp set value {angle:0}

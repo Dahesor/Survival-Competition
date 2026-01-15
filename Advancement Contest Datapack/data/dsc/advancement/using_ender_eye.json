@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "using_eye":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "ender_eye"
+                    ]
+                },
+                "player": {
+                    "periodic_tick": 2
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dsc:main/player/misc/hint_stronghold"
+    }
+}

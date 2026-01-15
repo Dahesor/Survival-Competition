@@ -7,6 +7,10 @@ execute if score @s refreshCD matches 1.. run scoreboard players remove @s refre
 
 #REMOVE THIS LATER - FOR TESTING PURPOSES ONLY
 
+
+
+
+return 42
 data modify storage run test set value [0,0,0]
 
 execute store result storage run test[0] int 1 run data get entity @s Pos[0]

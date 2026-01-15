@@ -10,6 +10,10 @@
             {
                 "namespace": "minecraft",
                 "path": "advancement/.*"
+            },
+            {
+                "namespace": "minecraft",
+                "path": "recipe/ender_eye.json"
             }
         ]
     }

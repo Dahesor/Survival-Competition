@@ -3,7 +3,11 @@
     "type": "minecraft:random_spread",
     "salt": 30084232,
     "separation": 4,
-    "spacing": 21
+    "spacing": 21,
+    "exclusion_zone": {
+      "chunk_count": 4,
+      "other_set": "fortress"
+    }
   },
   "structures": [
     {

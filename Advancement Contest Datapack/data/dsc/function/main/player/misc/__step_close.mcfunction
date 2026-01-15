@@ -1,0 +1,1 @@
+$execute facing $(x) ~ $(z) positioned ^ ^ ^10 run function dsc:main/player/misc/spawn

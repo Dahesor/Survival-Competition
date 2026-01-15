@@ -1,0 +1,7 @@
+use::mcdoc::gen::vec2
+
+dispatch minecraft:storage["main:"] to struct{
+    stronghold?: struct{
+        pos?: vec2
+    }
+}

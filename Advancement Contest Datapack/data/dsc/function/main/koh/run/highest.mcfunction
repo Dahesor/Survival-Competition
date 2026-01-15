@@ -1,3 +1,6 @@
+execute if score #red calc.DSC matches 0 if score #green calc.DSC matches 0 if score #blue calc.DSC matches 0 if score #yellow calc.DSC matches 0 if score #light_purple calc.DSC matches 0 if score #white calc.DSC matches 0 if score #gold calc.DSC matches 0 if score #gray calc.DSC matches 0 run return run scoreboard players set #winning calc.DSC -1
+
+
 execute if score #red calc.DSC = #max calc.DSC run scoreboard players set #winning calc.DSC 0
 execute if score #red calc.DSC > #max calc.DSC run scoreboard players set #winning calc.DSC 1
 scoreboard players operation #max calc.DSC > #red calc.DSC

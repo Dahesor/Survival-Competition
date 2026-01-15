@@ -6,8 +6,8 @@ execute as @a run attribute @s waypoint_transmit_range base set 0
 execute in overworld run worldborder set 47
 execute in the_nether run worldborder set 1024
 execute in the_end run worldborder set 512
-execute in overworld run worldborder damage buffer 0
-execute in the_nether run worldborder damage buffer 0
+execute in overworld run worldborder damage buffer 0.2
+execute in the_nether run worldborder damage buffer 0.2
 execute in the_end run worldborder damage buffer 0
 execute in overworld run worldborder damage amount 1
 execute in the_nether run worldborder damage amount 1
