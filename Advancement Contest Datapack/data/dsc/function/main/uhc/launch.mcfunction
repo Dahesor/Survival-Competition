@@ -11,3 +11,4 @@ function dsc:main/announce/stages/3
 execute in overworld run worldborder set 1 900s
 execute in the_nether run worldborder set 48 450s
 schedule function dsc:main/uhc/utils/shutdown_nether 470s
+execute as @a[scores={team=1..}] run loot give @s loot dsc:props/op
