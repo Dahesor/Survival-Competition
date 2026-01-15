@@ -1,1 +1,1 @@
-$advancement grant @a only $(advancement)
+$advancement grant @s only $(advancement)

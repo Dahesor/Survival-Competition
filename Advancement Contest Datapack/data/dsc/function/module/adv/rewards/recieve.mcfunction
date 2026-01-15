@@ -17,7 +17,7 @@ function dsc:module/adv/rewards/announce
 
 scoreboard players operation $this team = @s team
 execute as @a if score @s team = $this team at @s run function dsc:module/adv/rewards/teammate
-function dsc:module/adv/rewards/__grant_adv with storage dsc:task this
+execute as @a if score @s team = $this team at @s run function dsc:module/adv/rewards/__grant_adv with storage dsc:task this
 tag @a remove __adv_teammate
 
 scoreboard players set $linked calc.DSC 0

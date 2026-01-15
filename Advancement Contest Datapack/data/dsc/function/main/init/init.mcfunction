@@ -2,6 +2,7 @@ execute as @a run attribute @s block_interaction_range modifier remove gen:block
 function dsc:main/init/centers
 scoreboard players set stage main -1
 scoreboard players reset @a death
+execute as @a run attribute @s waypoint_transmit_range base set 0
 execute in overworld run worldborder set 47
 execute in the_nether run worldborder set 1024
 execute in the_end run worldborder set 512
