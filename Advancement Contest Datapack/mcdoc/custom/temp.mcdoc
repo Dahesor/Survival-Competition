@@ -20,5 +20,6 @@ dispatch minecraft:storage["temp"] to struct {
     },
     team?: Team,
     time_text?: Text,
-    time_holder?: int
+    time_holder?: int,
+    i?: int
 }

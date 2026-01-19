@@ -1,4 +1,7 @@
+execute if score @s revive_time matches 1 run return run function dsc:module/sidebar/this/spawning
+
 data modify storage temp text.with[3] set value {text:"☠",color:"red"}
+execute if entity @s[tag=aced] run data modify storage temp text.with[3] merge value {text:"❌",shadow_color:-16777216}
 scoreboard players operation #revive calc.DSC = @s revive_time
 scoreboard players operation #revive calc.DSC /= #20 calc.DSC
 scoreboard players add #revive calc.DSC 1

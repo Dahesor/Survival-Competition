@@ -25,6 +25,17 @@ scoreboard objectives add death deathCount
 scoreboard objectives add revive_time dummy
 scoreboard objectives add leave_game custom:leave_game
 scoreboard objectives add player_bounty dummy
+scoreboard objectives add UID dummy
+scoreboard objectives add died.spectating dummy
+scoreboard objectives add key.space dummy
+scoreboard objectives add key.a dummy
+scoreboard objectives add key.d dummy
+scoreboard objectives add died.swap_cd dummy
+scoreboard objectives add died.revive_target dummy
+scoreboard objectives add died.expected_time dummy
+scoreboard objectives add died.locked_x dummy
+scoreboard objectives add died.locked_y dummy
+scoreboard objectives add died.locked_z dummy
 stopwatch create dsc:master
 
 gamerule max_command_sequence_length 655360

@@ -1,6 +1,11 @@
 tag @s add eliminated
 tag @s remove respawning
 tag @s remove dead
+tag @s remove __dead_prepare
+tag @s remove spawn_locked
+scoreboard players reset @s died.revive_target
+scoreboard players reset @s died.expected_time
+tag @s remove respawn_menu
 dialog clear @s
 
 title @s times 10 70 20

@@ -30,7 +30,9 @@
     "O":"§6橙队信标",
     "L":"§7灰队信标",
     "head.game":"§kb§r [游戏] ",
-    "op.select":"信标§d#%1$s 位置：%2$s %3$s %4$s %5$s",
+    "op.select":"信标§d#%1$s %2$s %3$s %4$s",
+    "comp.vec3":"(%1$s %2$s %3$s)",
+    "comp.next_wave":"下波复活：%s",
     "E":"占领点（争夺中）",
     "Ｒ":"§c占领点（红）",
     "Ｇ":"§a占领点（绿）",
@@ -56,5 +58,8 @@
     "white":"白队",
     "gold":"橙队",
     "gray":"灰队",
-    "final_score":"%1$s: %2$s分"
+    "final_score":"%1$s: %2$s分",
+    "operation.choose_respawn":"【%s 选择重生点】",
+    "operation.change_spectate":"【%1$s/%2$s 切换旁观目标】",
+    "outpost.destroyed":"团队信标#%s已被摧毁！"
 }

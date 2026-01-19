@@ -1,0 +1,1 @@
+scoreboard players operation @a[limit=1,tag=__targets] died.spectating = @s UID

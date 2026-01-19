@@ -16,6 +16,9 @@ scoreboard players operation END_CLOSE_TIME main = STAGE_3_START_TIME main
 scoreboard players remove END_CLOSE_TIME main 12000
 scoreboard players set INVINCIBLE_TIME main 6000
 scoreboard players set ACE_RESPAWN_TIME main 1800
+scoreboard players set BASE_RESPAWN_TIME main 1000
+scoreboard players set OUTPOST_WAVE_TIME main 800
 
+data modify storage team outpost.next_update set value {black:-1,blue:-1,green:-1,red:-1,yellow:-1,gold:-1,gray:-1,white:-1,light_purple:-1}
 function sidebar.dah:visible/show_all_color
 execute as @a[scores={team=1..}] run function dsc_recipe:initial/give

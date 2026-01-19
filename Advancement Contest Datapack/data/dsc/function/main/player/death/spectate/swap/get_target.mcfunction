@@ -1,0 +1,2 @@
+execute if predicate dsc:keys/push/a run return run function dsc:main/player/death/spectate/swap/swap_left
+execute if predicate dsc:keys/push/d run return run function dsc:main/player/death/spectate/swap/swap_right

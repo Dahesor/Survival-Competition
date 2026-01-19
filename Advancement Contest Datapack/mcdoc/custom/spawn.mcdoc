@@ -19,7 +19,11 @@ dispatch minecraft:storage["team"] to struct {
         new?: TeamOutpost,
         this?: [TeamOutpost],
         run?: [TeamOutpost],
-        ztemp?: TeamOutpost
+        ztemp?: TeamOutpost,
+        fetch_cache?: [TeamOutpost],
+        next_update?: struct{
+            [Teams]?: int
+        }
     },
     misc?: struct{
         color?: Team,
@@ -35,7 +39,9 @@ struct TeamOutpost{
     id?: int,
     state?: int,
     count?: int,
-    marker?: #[uuid] string
+    marker?: #[uuid] string,
+    start_time?: int,
+    next_spawn?: int
 }
 
 type Team = #[color="named"] Teams

@@ -8,6 +8,7 @@ execute if score centered main matches 1 run function map:scanner/locater
 execute if score centered main matches 1 run function map:render/draw
 execute if score centered main matches 1 run forceload add ~ ~
 tp 0-0-0-0-0 ~ 500 ~
+execute store result score $gametime calc.DSC run time query gametime
 
 scoreboard players add #loop_20 calc.DSC 1
 execute if score #loop_20 calc.DSC matches 20.. run scoreboard players set #loop_20 calc.DSC 0

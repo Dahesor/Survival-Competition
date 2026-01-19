@@ -1,1 +1,0 @@
-$data modify storage team outpost.this set from storage team outpost.$(color)
