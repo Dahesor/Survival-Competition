@@ -31,8 +31,8 @@ if not exist "%CD%\%PACK1%\pack.mcmeta" (
   exit /b 1
 )
 
-set "ZIP1=%CD%\Adv Contest Datapack v%verNoV%.zip"
-set "ZIP2=%CD%\Adv Contest Resources v%verNoV%.zip"
+set "ZIP1=%CD%\Adv Contest Datapack %verNoV%.zip"
+set "ZIP2=%CD%\Adv Contest Resources %verNoV%.zip"
 
 if exist "%ZIP1%" del /f /q "%ZIP1%" >nul 2>&1
 if exist "%ZIP2%" del /f /q "%ZIP2%" >nul 2>&1
