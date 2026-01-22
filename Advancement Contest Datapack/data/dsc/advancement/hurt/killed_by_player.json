@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "killed_by_player": {
+            "trigger": "entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dsc:main/player/hurt/triggers/killed"
+    }
+}

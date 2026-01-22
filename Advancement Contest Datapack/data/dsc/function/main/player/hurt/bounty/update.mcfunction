@@ -1,0 +1,2 @@
+scoreboard players operation $this player_bounty = @s player_bounty
+scoreboard players display numberformat @s player_bounty fixed ["",{object:"atlas",sprite:"item/gold_ingot",atlas:"items",shadow_color:0},"\uE777\uE777",{score:{name:"$this",objective:"player_bounty"}}]

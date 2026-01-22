@@ -18,6 +18,7 @@ scoreboard players set INVINCIBLE_TIME main 6000
 scoreboard players set ACE_RESPAWN_TIME main 1800
 scoreboard players set BASE_RESPAWN_TIME main 1000
 scoreboard players set OUTPOST_WAVE_TIME main 800
+scoreboard players set INITIAL_BOUNTY main 10
 
 data modify storage team outpost.next_update set value {black:-1,blue:-1,green:-1,red:-1,yellow:-1,gold:-1,gray:-1,white:-1,light_purple:-1}
 function sidebar.dah:visible/show_all_color

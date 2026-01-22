@@ -1,0 +1,37 @@
+{
+    "anvil_cost": 999999,
+    "description": "",
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "min_cost": {
+        "base": 10,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "slots": ["saddle","mainhand"],
+    "supported_items": "structure_void",
+    "weight": 1,
+    "primary_items": [],
+    "effects": {
+        "post_attack": [
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "dsc:main/player/hurt/triggers/attacker"
+                },
+                "affected": "attacker",
+                "enchanted": "victim"
+            },
+            {
+                "effect": {
+                    "type": "run_function",
+                    "function": "dsc:main/player/hurt/triggers/victim"
+                },
+                "affected": "victim",
+                "enchanted": "victim"
+            }
+        ]
+    }
+}

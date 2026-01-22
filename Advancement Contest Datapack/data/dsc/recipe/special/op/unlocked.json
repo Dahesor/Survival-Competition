@@ -1,0 +1,15 @@
+{
+    "type": "crafting_shaped",
+    "key":{
+        "#":"barrier"
+    },
+    "result": {
+        "id": "barrier"
+    },
+    "category": "misc",
+    "group": "op_unlocked",
+    "show_notification": false,
+    "pattern": [
+        "#"
+    ]
+}

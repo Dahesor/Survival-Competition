@@ -6,6 +6,7 @@ dispatch minecraft:storage["custom"] to struct {[any]: CustomData}
 dispatch mcdoc:custom_data["beacon_lock"] to boolean
 dispatch mcdoc:custom_data["becon_drop"] to boolean
 dispatch mcdoc:custom_data["keeps_on_death"] to boolean
+dispatch mcdoc:custom_data["is_identifier"] to boolean
 dispatch mcdoc:custom_data["Inv"] to [SlottedItem<byte @ -106..106>] @ -106..106
 dispatch mcdoc:custom_data["outpost"] to struct{
     init?: boolean,

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "recipe":{
+            "trigger": "recipe_unlocked",
+            "conditions": {
+                "recipe": "dsc:special/op/unlocked"
+            }
+        }
+    },
+    "rewards": {
+        "function": "dsc:main/player/misc/get_outpost"
+    }
+}

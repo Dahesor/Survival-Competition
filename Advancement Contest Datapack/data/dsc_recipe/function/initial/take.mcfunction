@@ -98,6 +98,7 @@ recipe take @s dsc:special/banner_dye/purple
 recipe take @s dsc:special/banner_dye/red
 recipe take @s dsc:special/banner_dye/white
 recipe take @s dsc:special/banner_dye/yellow
+recipe take @s dsc:special/op/regular
 recipe take @s black_dye
 recipe take @s black_dye_from_wither_rose
 recipe take @s blue_dye

@@ -37,6 +37,7 @@ scoreboard objectives add died.locked_x dummy
 scoreboard objectives add died.locked_y dummy
 scoreboard objectives add died.locked_z dummy
 scoreboard objectives add hurt_penalty dummy
+scoreboard objectives add last_hurt_by dummy
 stopwatch create dsc:master
 
 gamerule max_command_sequence_length 655360

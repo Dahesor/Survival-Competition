@@ -1,0 +1,1 @@
+execute unless score #attacker team = @s team run scoreboard players operation @s last_hurt_by = #attacker UID

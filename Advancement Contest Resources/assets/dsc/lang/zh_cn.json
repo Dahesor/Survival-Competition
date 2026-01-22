@@ -61,5 +61,6 @@
     "final_score":"%1$s: %2$s分",
     "operation.choose_respawn":"【%s 选择重生点】",
     "operation.change_spectate":"【%1$s/%2$s 切换旁观目标】",
-    "outpost.destroyed":"团队信标#%s已被摧毁！"
+    "outpost.destroyed":"团队信标#%s已被摧毁！",
+    "bounty.claim":"§b[!]§r %1$s的队伍获得了%2$s的部分悬赏分数§7(§r%3$s§7)§r\n - 但他自己的赏金增加了！"
 }

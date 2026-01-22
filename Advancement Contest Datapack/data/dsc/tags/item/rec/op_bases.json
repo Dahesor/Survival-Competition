@@ -1,0 +1,15 @@
+{
+    "values": [
+        "copper_block",
+        "iron_block",
+        "gold_block",
+        "diamond",
+        "obsidian",
+        "netherite_ingot",
+        "crying_obsidian",
+        "sponge",
+        "echo_shard",
+        "netherite_scrap",
+        "emerald_block"
+    ]
+}

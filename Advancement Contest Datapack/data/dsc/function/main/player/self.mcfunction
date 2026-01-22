@@ -1,5 +1,9 @@
 function dsc:player/uid/get
 
+execute if score #loop_20 calc.DSC matches 3 run function dsc:main/player/hurt/bounty/update
+
+execute if entity @s[tag=__killed] run function dsc:main/player/hurt/bounty/find
+
 execute if score @s death matches 1.. run function dsc:main/player/death/spectate
 execute if entity @s[tag=dead] run function dsc:main/player/death/check
 
