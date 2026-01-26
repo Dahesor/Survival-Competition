@@ -1,0 +1,1 @@
+$execute in $(in) positioned $(x) $(y) $(z) as @e[type=marker,tag=outpost,distance=..3.5,scores={outpost.state=-1..}] if score @s team = $this team run scoreboard players set #has_op calc.DSC 1

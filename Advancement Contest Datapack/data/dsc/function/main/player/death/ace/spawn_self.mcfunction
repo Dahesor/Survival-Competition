@@ -11,3 +11,4 @@ execute at @s run playsound item.totem.use master @a ~ ~ ~ 0.9 1.3
 execute at @s run particle totem_of_undying ~ ~1 ~ 0.3 0.3 0.3 1 100 normal @a
 gamemode survival
 effect give @s resistance 20 10
+scoreboard players set @s revive_time 0

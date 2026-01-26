@@ -12,7 +12,10 @@ execute if score stage main matches 2 run function dsc:main/koh/tick
 execute if score stage main matches 3 run function dsc:main/uhc/tick
 
 #Player
+execute store result score expected_player_count main run data get storage main: online
+scoreboard players set player_count main 0
 function dsc:main/player/split
+execute if score player_count main < expected_player_count main run function dsc:main/plugin/offline/_get_/entry
 
 execute if score #loop_20 calc.DSC matches 1 run function dsc:main/plugin/op_update/start
 execute if score #loop_20 calc.DSC matches 18 run function dsc:main/second

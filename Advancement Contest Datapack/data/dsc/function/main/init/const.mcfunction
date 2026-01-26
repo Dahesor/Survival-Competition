@@ -23,3 +23,12 @@ scoreboard players set INITIAL_BOUNTY main 10
 data modify storage team outpost.next_update set value {black:-1,blue:-1,green:-1,red:-1,yellow:-1,gold:-1,gray:-1,white:-1,light_purple:-1}
 function sidebar.dah:visible/show_all_color
 execute as @a[scores={team=1..}] run function dsc_recipe:initial/give
+
+scoreboard players set #red team 0
+scoreboard players set #green team 0
+scoreboard players set #blue team 0
+scoreboard players set #yellow team 0
+scoreboard players set #light_purple team 0
+scoreboard players set #white team 0
+scoreboard players set #gold team 0
+scoreboard players set #gray team 0

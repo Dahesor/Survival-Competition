@@ -1,3 +1,4 @@
+gamemode spectator
 execute rotated as @s[tag=aced] rotated ~ 0 positioned as 0-0-0-0-9 run tp @s ~ ~ ~ ~ ~
 
 function dsc:main/player/death/keys

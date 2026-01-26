@@ -12,7 +12,8 @@ execute store result storage run num.i int 1 run data get storage temp Inv[0].Sl
 data remove storage temp Inv[0].Slot
 data modify storage temp item set from storage temp Inv[0]
 function dsc:main/plugin/drop/item
-function dsc:main/plugin/drop/__clear_backpack with storage run num
+execute if score $offline calc.DSC matches 0 run function dsc:main/plugin/drop/__clear_backpack with storage run num
+execute if score $offline calc.DSC matches 1 run function dsc:main/plugin/drop/__remove_from_data with storage run num
 
 #Next
 function dsc:main/plugin/drop/next

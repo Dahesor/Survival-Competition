@@ -13,3 +13,6 @@ tag @s remove respawn_menu
 title @s times 10 70 20
 title @s title {text:"团灭",color:"red"}
 title @s subtitle {text:"一分半后集体复活",color:"red"}
+
+scoreboard players operation $this team = @s team
+function dsc:core/relate/team_state/aced

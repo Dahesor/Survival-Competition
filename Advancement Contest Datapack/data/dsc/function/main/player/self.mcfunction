@@ -1,8 +1,10 @@
 function dsc:player/uid/get
 
+scoreboard players add player_count main 1
+
 execute if score #loop_20 calc.DSC matches 3 run function dsc:main/player/hurt/bounty/update
 
-execute if entity @s[tag=__killed] run function dsc:main/player/hurt/bounty/find
+execute if entity @s[tag=__killed] run function dsc:main/player/hurt/bounty/read_data
 
 execute if score @s death matches 1.. run function dsc:main/player/death/spectate
 execute if entity @s[tag=dead] run function dsc:main/player/death/check

@@ -8,17 +8,27 @@ dispatch minecraft:storage["main:"] to struct{
         pos?: vec2
     },
     player?: [PlayerData],
+    online?: [identity],
+    offline?: [identity],
+    temp?: [PlayerData],
 }
 
-struct DoubleVec3{x: double,y: double,z: double,}
+struct DoubleVec3{x: double,y: double,z: double}
 
-struct PlayerData {
+struct identity {
     UID?: int,
     UUID?: #[uuid] string,
     Name?: string,
+}
+
+struct PlayerData {
+    ...identity,
     Inventory?: [SlottedItem<byte @ -106..106>] @ -106..106,
     Pos?: DoubleVec3,
     equipment?: PlayerEquipment,
     misc?: struct{
-    }
+        offline?: boolean,
+        offline_punish?: byte,
+    },
+    Dimension?: #[id="dimension"] string,
 }

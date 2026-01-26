@@ -12,3 +12,6 @@ title @s times 10 70 20
 title @s title {text:"淘汰",color:"red"}
 title @s subtitle {text:"感谢游玩",color:"red"}
 gamemode spectator
+
+scoreboard players operation $this team = @s team
+function dsc:core/relate/team_state/eliminated

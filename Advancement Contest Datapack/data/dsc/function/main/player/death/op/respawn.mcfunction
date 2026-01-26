@@ -10,6 +10,7 @@ scoreboard players reset @s key.space
 scoreboard players reset @s died.swap_cd
 scoreboard players reset @s died.revive_target
 scoreboard players reset @s died.expected_time
+scoreboard players set @s revive_time 0
 tag @s remove respawn_menu
 function dsc:main/player/death/op/__tp_to_spawn with storage team outpost.ztemp
 execute at @s run playsound item.totem.use master @a ~ ~ ~ 0.9 1.3

@@ -1,8 +1,7 @@
 data modify storage run num set value {i:-1}
-function dsc:main/plugin/drop/loop
 
-data modify storage temp equipment set value {}
-data modify storage temp equipment set from entity @s equipment
+#Inventory Items
+function dsc:main/plugin/drop/loop
 
 #Head Armor
 execute store result score $rand main run random value 1..100
@@ -11,6 +10,10 @@ execute if score $rand main <= drop_rate main if data storage temp equipment.hea
 #Body Armor
 execute store result score $rand main run random value 1..100
 execute if score $rand main <= drop_rate main if data storage temp equipment.body run function dsc:main/plugin/drop/armor/body
+
+#Chest Armor
+execute store result score $rand main run random value 1..100
+execute if score $rand main <= drop_rate main if data storage temp equipment.chest run function dsc:main/plugin/drop/armor/chest
 
 #Legs Armor
 execute store result score $rand main run random value 1..100

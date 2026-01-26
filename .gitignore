@@ -1,4 +1,5 @@
 **/__pycache__/**
+**/bs.dump/**
 scripts/env/**
 **/.vscode/**
 **/.venv/**

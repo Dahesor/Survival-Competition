@@ -1,0 +1,1 @@
+$data remove storage main: player[0].Inventory[{Slot:$(i)b}]

@@ -5,4 +5,5 @@ execute store result storage run res.x int 1 run scoreboard players get #new_x c
 execute store result storage run res.z int 1 run scoreboard players get #new_z calc.DSC
 
 scoreboard players operation $this team = @s team
+function dsc:core/relate/team_state/normal
 execute as @a if score @s team = $this team run function dsc:main/player/death/ace/spawn_self
